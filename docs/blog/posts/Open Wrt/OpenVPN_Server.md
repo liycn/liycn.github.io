@@ -4,9 +4,9 @@ date:
    updated: 2025-02-22
 ---
 
-使用 OpenWrt 配置 IPv6 + DDNS + OpenVPN 实现远程访问及异地组网
+**使用 OpenWrt 配置 IPv6 + DDNS + OpenVPN 实现远程访问及异地组网**
 
-???+ success "感谢"
+??? success "感谢"
    
     灵感来自 YouTube 上的 UP 主：[24K钢丝](https://www.youtube.com/watch?v=yb-g4ZaNm9Y)
     
@@ -21,6 +21,9 @@ date:
 |软路由设备|我用的是 R4S，买成￥571，记得选带 TF 卡和 TF 读写器，或者自己单独买也行。<br>也可以用其他的 RS 设备、x86_64 机子或小米、树莓派、Raspberry Pi等路由设备|
 |Open Wrt| 我用的是 BleachWrt ，版本是 bleachwrt plus 20250117，[同版本固件下载地址](https://openwrt.mpdn.fun:8443/?dir=lede)，找自己对应版本的固件下载，并且要注意不熟悉Wrt的人尽量不要用 `.mini-daily` ，这个是精简版，**推荐使用高大全版本下载 `plus-daily`**|
 |rufus|刷固件的软件，也可以用其他的软件，我用的是rufus-v4.6，[下载地址](https://github.com/pbatard/rufus/releases/download/v4.6/rufus-4.6.exe)|
+
+<!-- more -->
+<!-- 摘录结束 -->
 
 ## 一、路由结构
 **光猫接 R4S 的 WAN 口，R4S 的 LAN 口出去接路由器/交换机的 LAN 口**
