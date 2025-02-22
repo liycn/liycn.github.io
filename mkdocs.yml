@@ -1,5 +1,90 @@
 site_name: LiiiY
-dev_addr: localhost:8000
+dev_addr: 0.0.0.0:8000
+copyright: Copyright © 2025 All Rights Reserved  # 版权声明
+
 theme:
   name: material
   language: zh
+  features:
+    - navigation.indexes
+
+  icon:
+    logo: material/dog  # Logo 图标
+
+  palette:
+    - media: "(prefers-color-scheme: light)"  # 日间模式
+      scheme: default
+      primary: white                          # 导航栏背景色
+      toggle:
+        icon: material/brightness-7
+        name: 日间模式
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"   # 夜间模式
+      scheme: slate
+      primary: black                          # 导航栏背景色
+      toggle:
+        icon: material/brightness-4
+        name: 夜间模式
+
+  features:
+    - navigation.top      # 返回顶部的按钮
+    - navigation.tabs     # 导航栏
+    - search.highlight    # 高亮显示搜索内容
+    - navigation.tracking # 锚跟踪
+    - navigation.expand   # 导航栏扩展
+    - navigation.path     # 显示文件路径
+    - navigation.instant  # 有点没太懂
+    - navigation.instant.prefetch # 即时预取
+    - navigation.instant.progress # 进度指标
+    - content.code.select # 代码选择按钮
+    - content.code.copy   # 代码复制按钮
+    - content.code.annotate       # 代码注释
+    - content.tabs.link   # 链接内容选项卡
+    - custom_dir: overrides # 自定义主题的目录
+
+extra:
+  generator: false                      # 关闭 MKDOCS 来源页脚
+  social:
+    - icon: fontawesome/brands/github   # 页脚图标
+      link: https://github.com/LeeYearn # 对应链接
+      name: GitHub                      # 提示词
+
+plugins:
+  - glightbox
+  - search
+  - blog:
+      archive_date_format: MMMM yyyy
+  - tags
+  - privacy
+  # - social
+
+# extra_css:
+#   - stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+  
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+nav:
+- Home: index.md
+- Blog:
+  - blog/index.md
+  - OpenWrt: 
+    - 搭建 OpenVPN 服务器: blog/posts/Open Wrt/OpenVPN_Server.md
+  - Knowledge:
+    - 双系统时间同步问题: blog/posts/Knowledge/双系统时间同步问题.md
+- About: about/About.md
+# - Test: test.md
