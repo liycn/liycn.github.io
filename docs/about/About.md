@@ -71,7 +71,7 @@ hide:
             </div>
         </div>
         <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;margin-top:20px">
-            <img src="./docs/about/img/CQNY.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
+            <img src="/docs/about/img/CQNY.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">重庆能源职业学院</h3>
                 <p>
