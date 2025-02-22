@@ -47,7 +47,7 @@ hide:
     <h2 style="font-weight: bolder;">教育经历</h2>
     <div class="education-container" style="display: flex; flex-direction: column; gap: 20px; margin: 0 0 0 50px;">
         <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;">
-            <img src="/about/img/CQU.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
+            <img src="./about/img/CQU.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bold; line-height: 1; margin-top: 1em;">重庆大学 - 国家卓越工程师学院</h3>
                 <p>
@@ -60,7 +60,7 @@ hide:
             </div>
         </div>
         <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;margin-top:20px">
-            <img src="/about/img/CQUE.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
+            <img src="./about/img/CQUE.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">重庆第二师范学院</h3>
                 <p>
@@ -71,7 +71,7 @@ hide:
             </div>
         </div>
         <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;margin-top:20px">
-            <img src="/about/img/CQNY.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
+            <img src="./about/img/CQNY.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">重庆能源职业学院</h3>
                 <p>
