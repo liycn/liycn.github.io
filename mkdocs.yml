@@ -6,8 +6,6 @@ copyright: Copyright © 2025 All Rights Reserved  # 版权声明
 theme:
   name: material
   language: zh
-  # features:
-  #   - navigation.indexes
 
   icon:
     logo: material/dog  # Logo 图标
@@ -45,22 +43,26 @@ theme:
     - navigation.tabs             # 导航栏始终显示
     - navigation.tabs.sticky      # 导航栏始终显示
     - navigation.sections         # 不折叠导航栏
+    - navigation.indexes          # 排除 大标题 在页面导航栏重复问题
 
-# extra:
-#   generator: false                      # 关闭 MKDOCS 来源页脚
-#   social:
-#     - icon: fontawesome/brands/github   # 页脚图标
-#       link: https://github.com/LeeYearn # 对应链接
-#       name: GitHub                      # 提示词
+extra:
+  generator: false                      # 关闭 MKDOCS 来源页脚
+  # social:
+  #   - icon: https://dxlcq.github.io/assets/head.png   # 页脚图标
+  #     link: https://dxlcq.cn # 对应链接
+  #     name: 戴兴龙                      # 提示词
 
 plugins:
-  - glightbox
+  - glightbox:                            # 图片放大功能
+      # draggable: true                     # 图片可拖动
+      touchNavigation: false
+      loop: true                          # 图片循环
   - search
   - blog:
-      # archive_date_format: MMMM yyyy
-      blog_toc: true
+      archive_date_format: yyyy             # 归档时间格式
+      blog_toc: true                        # 在 Blog 主页中显示文章目录
       post_date_format: short               # 日期格式 yyyy mm dd week
-      post_excerpt: optional
+      post_excerpt: optional                # 摘录，optional选择写，required必写
       post_excerpt_separator: <!-- more --> # 生成摘录，more以上为摘录
   - tags                                    # 标签
   - privacy
@@ -85,7 +87,9 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - admonition
   - pymdownx.details
-
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
 
 nav:
 - Home: index.md
