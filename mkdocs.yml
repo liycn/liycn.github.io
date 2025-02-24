@@ -54,8 +54,8 @@ extra:
 
 plugins:
   - glightbox:                            # 图片放大功能
-      # draggable: true                     # 图片可拖动
-      touchNavigation: false
+      draggable: true                     # 图片可拖动
+      touchNavigation: true               # 触摸触摸导航(滑动)
       loop: true                          # 图片循环
   - search
   - blog:
@@ -99,5 +99,6 @@ nav:
     - 搭建 OpenVPN 服务器: blog/posts/Open Wrt/OpenVPN_Server.md
   - Knowledge:
     - 双系统时间同步问题: blog/posts/Knowledge/双系统时间同步问题.md
+- Tools: tools/tools.md
 - About: about/About.md
 # - Test: test.md
