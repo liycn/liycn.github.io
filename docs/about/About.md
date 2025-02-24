@@ -15,7 +15,12 @@ glightbox: false
 </style>
 
 <div>
-    <h2 style="font-weight: bolder; margin-top: 0;line-height:1;">相关链接</h2>
+    <h2 style="font-weight: bolder; margin-top: 0;line-height:1;">首先</h2>
+    这个网站是基于<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank"> Material for MkDocs </a>建立的，
+</div>
+
+<div>
+    <h2 style="font-weight: bolder;">相关链接</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 55px; margin-top: 40px;">
         <div style="display: flex; flex-direction: column; align-items: center;">
             <a href="https://www.leeyearn.cn/" target="_blank">
