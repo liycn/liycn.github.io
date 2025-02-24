@@ -1,14 +1,18 @@
 site_name: LiiiY
 dev_addr: 0.0.0.0:8000
 docs_dir: docs
-copyright: Copyright © 2025 All Rights Reserved  # 版权声明
+copyright: Copyright © 2025 All Rights Reserved         # 版权声明
+
+repo_url: https://github.com/LeeYearn/WebServer         # git仓库地址
+repo_name: liiiy.cn / WebServer                         # 仓库名称
 
 theme:
   name: material
   language: zh
 
   icon:
-    logo: material/dog  # Logo 图标
+    logo: material/dog                        # Logo 图标
+    repo: fontawesome/brands/github           # 仓库图标
 
   palette:
     - media: "(prefers-color-scheme: light)"  # 日间模式
@@ -100,5 +104,6 @@ nav:
   - Knowledge:
     - 双系统时间同步问题: blog/posts/Knowledge/双系统时间同步问题.md
 - Tools: tools/tools.md
+- Recom: recom/index.md
 - About: about/About.md
 # - Test: test.md
