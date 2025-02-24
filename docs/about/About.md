@@ -4,6 +4,7 @@ hide:
   - toc
   - path
   - feedback
+glightbox: false
 ---
 
 <style>
@@ -18,7 +19,7 @@ hide:
     <div style="display: flex; flex-wrap: wrap; gap: 55px; margin-top: 40px;">
         <div style="display: flex; flex-direction: column; align-items: center;">
             <a href="https://www.leeyearn.cn/" target="_blank">
-                <img width="64" height="64" src="https://img.icons8.com/deco/96/domain.png" alt="domain"/>
+                <img width="64" height="64" src="https://img.icons8.com/deco/96/domain.png"/>
             </a>
             <code style="font-size: 18px; margin: 0;">ex-Blog</code>
         </div>
