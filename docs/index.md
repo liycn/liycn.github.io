@@ -37,24 +37,30 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    快捷栏    -->
 <div style="display: flex; flex-wrap: wrap; gap: 55px; margin-top: 40px; border-radius: 15px; width: 100%; padding: 20px;">
-  <div style="display: flex; flex-direction: column; align-items: center;">
+  <div class="shortcut">
     <a href="https://www.leeyearn.cn/" target="_blank">
-      <img width="64" height="64" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg" style="border-radius: 10%"/>
+      <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
     </a>
-    <code style="font-size: 18px; margin: 0;"><b>Ex-Blog</b></code>
+    <code class="shortcut-font"><b>Ex-Blog</b></code>
   </div>
-  <div style="display: flex; flex-direction: column; align-items: center;">
-      <a href="https://github.com/LeeYearn" target="_blank">
-          <img width="64" height="64" src="https://img.icons8.com/fluency/96/github.png" alt="github"/>
+  <div class="shortcut">
+      <a href="/public" target="_blank">
+          <img class="shortcut-icon" src="https://img.icons8.com/fluency/96/folder-invoices--v2.png" alt="github"/>
       </a>
-      <code style="font-size: 18px; margin: 0;"><b>GitHub</b></code>
+      <code sclass="shortcut-font"><b>Public</b></code>
+  </div>
+  <div class="shortcut">
+      <a href="/private" target="_blank">
+          <img class="shortcut-icon" src="https://img.icons8.com/fluency/96/porn-folder.png" alt="github"/>
+      </a>
+      <code class="shortcut-font"><b>Private</b></code>
   </div>
 </div>
 
 
 
 <!--    工具栏    -->
-<div style="display: flex; flex-wrap: wrap;margin-top: 40px; border: 3px solid; border-radius: 15px; width: 100%; padding: 20px; justify-content: center; align-items: center;">
+<div style="display: flex; flex-wrap: wrap;margin-top: 0px; border: 3px solid; border-radius: 15px; width: 100%; padding: 5px; justify-content: center; align-items: center;">
   <div class="extension">
     <a href="https://www.itdog.cn/ping/" target="_blank">
       <img class="extension-icon" src="https://img.icons8.com/fluency/96/domain.png"/>
@@ -131,6 +137,9 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
     </a>
     <b class="extension-font">极简插件</b>
   </div>
+</div>
+
+  
 </div>
 
 <script>

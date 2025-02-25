@@ -29,6 +29,20 @@
   margin-top: 0px;
   line-height: 1em;
 }
+.shortcut{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shortcut-icon{
+  width: 64px;
+  height: 64px;
+  border-radius: 10%
+}
+.shortcut-font{
+  font-size: 18px;
+  margin: 0;
+}
 .extension{
   margin: 20px;
   display: flex;
@@ -42,4 +56,33 @@
 .extension-font{
   font-size: 16px;
   margin: 0;
+}
+.Friendly {
+  margin: 20px;
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  /* justify-content: center; 整体水平居中 */
+}
+
+.Friendly div {
+  display: flex;
+  flex-direction: column; /* 设置b和p垂直排列 */
+}
+
+.Friendly-icon {
+  width: 68px;
+  height: 68px;
+  margin-right: 15px; /* 图片和文字之间的间距 */
+  border-radius: 10%;
+}
+
+.Friendly-font {
+  font-size: 20px;
+  margin: 0;
+}
+
+.Friendly-font-note {
+  font-size: 15px;
+  margin: 0;
+  color: #666; /* 副标题颜色 */
 }

@@ -14,10 +14,16 @@ glightbox: false
   }
 </style>
 
+<link rel="stylesheet" href="/stylesheets/index.css">
+
 <div>
     <h2 style="font-weight: bolder; margin-top: 0;line-height:1;">首先</h2>
     这个网站是基于<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank"> Material for MkDocs </a>建立的，
 </div>
+
+
+
+
 
 <div>
     <h2 style="font-weight: bolder;">相关链接</h2>
@@ -49,8 +55,8 @@ glightbox: false
     </div>
 </div>
 
-<div>
-    <h2 style="font-weight: bolder;">教育经历</h2>
+<div style="margin-top:50px;border: 1px solid #ddd; border-radius: 10px; padding: 15px;background-color: rgba(249, 249, 249, 0.1);">
+    <h2 style="font-weight: bolder;margin-top:0px;">教育经历</h2>
     <div class="education-container" style="display: flex; flex-direction: column; gap: 20px; margin: 0 0 0 50px;">
         <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;">
             <img src="/images/about/education/CQU.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
@@ -61,7 +67,7 @@ glightbox: false
                     <a href="https://eie.cqu.edu.cn/" target="_blank">卓工官网</a> / 
                     <a href="https://my.cqu.edu.cn/workspace/home/" target="_blank">教务系统</a>
                 </p>
-                <p><b>时间：</b>2024年9月 - 2025年7月 - <b>交流生</b></p>
+                <p><b>时间：</b>2024年9月 ~ 2025年7月 - <b>交流生</b></p>
                 <p><b>专业：</b>智能网联汽车</p>
             </div>
         </div>
@@ -72,21 +78,41 @@ glightbox: false
                 <p>
                     <a href="https://www.cque.edu.cn/esdztw/sy.html" target="_blank">学校官网</a>
                 </p>
-                <p><b>时间：</b>2023年9月 - 2025年7月 - <b>全日制本科</b></p>
+                <p><b>时间：</b>2023年9月 ~ 2025年7月 - <b>全日制本科</b></p>
                 <p><b>专业：</b>数据科学与大数据技术(曙光合作)</p>
             </div>
         </div>
-        <div style="display: flex; align-items: center; gap: 50px; width: 100%; max-width: 800px; flex-wrap: wrap;margin-top:20px">
+        <div style="display: flex; align-items: center; gap: 50px; flex-wrap: wrap; margin-top: 20px; ">
             <img src="/images/about/education/CQNY.png" width="200px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">重庆能源职业学院</h3>
                 <p>
                     <a href="https://www.cqny.edu.cn/" target="_blank">学校官网</a>
                 </p>
-                <p><b>时间：</b>2020年9月 - 2023年7月 - <b>全日制专科</b></p>
+                <p><b>时间：</b>2020年9月 ~ 2023年7月 - <b>全日制专科</b></p>
                 <p><b>专业：</b>物联网应用技术</p>
             </div>
         </div>
+    </div>
+</div>
+
+<div>
+    <h2 style="font-weight: bolder;">友链</h2>
+    <div style="display: flex; gap: 10px;">
+        <a href="https://dxlcq.cn" class="test" style="display: inline-flex; align-items: center; border: 2px solid #ddd; border-radius: 15px; padding: 10px; width: 300px; text-decoration: none;" target="_blank">
+            <img src="https://dxlcq.cn/assets/head.png" width="64px" style="margin: 0 10px 0 10px; border-radius: 10%;">
+            <div style="margin-left: 5px;">
+                <p style="font-size: 24px; font-weight: bold; margin: 0;">骄骄</p>
+                <p style="font-size: 17px; color: gray; margin: 0;">骄骄是骄傲的骄</p>
+            </div>
+        </a>
+        <a href="https://dxlcq.cn" class="test" style="display: inline-flex; align-items: center; border: 2px solid #ddd; border-radius: 15px; padding: 10px; width: 300px; text-decoration: none;" target="_blank">
+            <img src="https://dczcq.cn/img/logo/icon.svg" width="64px" style="margin: 0 10px 0 10px; border-radius: 10%;">
+            <div style="margin-left: 5px;">
+                <p style="font-size: 24px; font-weight: bold; margin: 0;">Sevenalist</p>
+                <p style="font-size: 17px; color: gray; margin: 0;">Undergraduate Student</p>
+            </div>
+        </a>
     </div>
 </div>
 
