@@ -19,9 +19,9 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- [__Chat GPT__](https://chat.openai.com/chat)
-- [__DeepSeek__](https://chat.deepseek.com/a/chat)
-- [__Grok__](https://grok.com/)
+- [__Chat GPT__](https://chat.openai.com/chat){target="_blank"}
+- [__DeepSeek__](https://chat.deepseek.com/a/chat){target="_blank"}
+- [__Grok__](https://grok.com/){target="_blank"}
 
 </div>
 
