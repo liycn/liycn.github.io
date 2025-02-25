@@ -96,7 +96,7 @@ glightbox: false
     </div>
 </div>
 
-<div>
+<!-- <div>
     <h2 style="font-weight: bolder;">友链</h2>
     <div style="display: flex; gap: 10px;">
         <a href="https://dxlcq.cn" class="test" style="display: inline-flex; align-items: center; border: 2px solid #ddd; border-radius: 15px; padding: 10px; width: 300px; text-decoration: none;" target="_blank">
@@ -114,8 +114,19 @@ glightbox: false
             </div>
         </a>
     </div>
-</div>
+</div> -->
 
+<h2 style="font-weight: bolder;">友链</h2>
+
+<div class="grid cards" markdown>
+
+- [__My ex blog__ <br> 心远地自偏](https://dxlcq.cn){target="_blank"}
+
+- [__骄骄__ <br> 骄骄是骄傲的骄](https://dxlcq.cn){target="_blank"}
+    
+- [__Sevenalist__ <br> Never Stop Thinking.](https://dczcq.cn){target="_blank"}
+    
+</div>
 <script>
     // 动态检测屏幕宽度
     function adjustLayout() {

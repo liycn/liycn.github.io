@@ -13,22 +13,19 @@ theme:
   icon:
     logo: material/dog                        # Logo 图标
     repo: fontawesome/brands/github           # 仓库图标
-
+  
   palette:
     - media: "(prefers-color-scheme: light)"  # 日间模式
       scheme: default
-      primary: white                          # 导航栏背景色
-      toggle:
-        icon: material/brightness-7
-        name: 日间模式
+      primary: indigo                         # 导航栏背景色
 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"   # 夜间模式
-      scheme: slate
-      primary: black                          # 导航栏背景色
-      toggle:
-        icon: material/brightness-4
-        name: 夜间模式
+    # # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"   # 夜间模式
+    #   scheme: slate
+    #   primary: black                          # 导航栏背景色
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: 夜间模式
 
   features:
     - navigation.top              # 返回顶部的按钮
@@ -36,7 +33,7 @@ theme:
     - search.highlight            # 高亮显示搜索内容
     - search.suggest              # 搜索建议
     - navigation.tracking         # 锚跟踪
-    - navigation.instant          # 有点没太懂
+    - navigation.instant          # 即时加载
     - navigation.instant.prefetch # 即时预取
     - navigation.instant.progress # 进度指标
     - content.code.select         # 代码选择按钮
@@ -83,7 +80,11 @@ markdown_extensions:
   - abbr
   - toc:
       permalink: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
@@ -94,16 +95,19 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
 - Home: index.md
+- Tools: tools.md
 - Blog:
   - blog/index.md
   - OpenWrt: 
     - 搭建 OpenVPN 服务器: blog/posts/Open Wrt/OpenVPN_Server.md
   - Knowledge:
     - 双系统时间同步问题: blog/posts/Knowledge/双系统时间同步问题.md
-- Tools: tools/tools.md
 - Recom: recom/index.md
-- About: about/About.md
+- About: about.md
 # - Test: test.md
