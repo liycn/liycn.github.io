@@ -139,23 +139,6 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
   </div>
 </div>
 
-<<<<<<< HEAD
-  
-=======
-<div>
-  <h2>友链</h2>
-  <div class="Friendly">
-    <a href="https://dxlcq.cn/" target="_blank">
-      <img class="Friendly-icon" src="https://dxlcq.cn/assets/head.png"/>
-      <div>
-        <b class="Friendly-font">骄骄</b>
-        <p class="Friendly-font-note">骄骄是骄傲的骄</p>
-      </div>
-    </a>
-  </div>
->>>>>>> da5b50f21d10fc8000c655a4c53b6b2567a6a418
-</div>
-
 <script>
   // 当前时间
   let hourTime = "00"; // 小时
