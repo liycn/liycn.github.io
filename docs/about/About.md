@@ -110,7 +110,7 @@ glightbox: false
             <img src="https://dczcq.cn/img/logo/icon.svg" width="64px" style="margin: 0 10px 0 10px; border-radius: 10%;">
             <div style="margin-left: 5px;">
                 <p style="font-size: 24px; font-weight: bold; margin: 0;">Sevenalist</p>
-                <p style="font-size: 17px; color: gray; margin: 0;">Undergraduate Student</p>
+                <p style="font-size: 17px; color: gray; margin: 0;">Never Stop Thinking.</p>
             </div>
         </a>
     </div>
