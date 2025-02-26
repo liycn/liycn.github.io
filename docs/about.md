@@ -96,26 +96,6 @@ glightbox: false
     </div>
 </div>
 
-<!-- <div>
-    <h2 style="font-weight: bolder;">友链</h2>
-    <div style="display: flex; gap: 10px;">
-        <a href="https://dxlcq.cn" class="test" style="display: inline-flex; align-items: center; border: 2px solid #ddd; border-radius: 15px; padding: 10px; width: 300px; text-decoration: none;" target="_blank">
-            <img src="https://dxlcq.cn/assets/head.png" width="64px" style="margin: 0 10px 0 10px; border-radius: 10%;">
-            <div style="margin-left: 5px;">
-                <p style="font-size: 24px; font-weight: bold; margin: 0;">骄骄</p>
-                <p style="font-size: 17px; color: gray; margin: 0;">骄骄是骄傲的骄</p>
-            </div>
-        </a>
-        <a href="https://dxlcq.cn" class="test" style="display: inline-flex; align-items: center; border: 2px solid #ddd; border-radius: 15px; padding: 10px; width: 300px; text-decoration: none;" target="_blank">
-            <img src="https://dczcq.cn/img/logo/icon.svg" width="64px" style="margin: 0 10px 0 10px; border-radius: 10%;">
-            <div style="margin-left: 5px;">
-                <p style="font-size: 24px; font-weight: bold; margin: 0;">Sevenalist</p>
-                <p style="font-size: 17px; color: gray; margin: 0;">Never Stop Thinking.</p>
-            </div>
-        </a>
-    </div>
-</div> -->
-
 <h2 style="font-weight: bolder;">友链</h2>
 
 <div class="grid cards" markdown>
