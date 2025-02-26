@@ -12,7 +12,7 @@ theme:
   custom_dir: overrides
 
   icon:
-    logo: material/dog                        # Logo 图标
+    logo: other/spiderman                     # Logo 图标
     repo: fontawesome/brands/github           # 仓库图标
   
   palette:
