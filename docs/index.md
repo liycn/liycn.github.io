@@ -23,38 +23,32 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 <div class="time">
   <div class="solar-time" id="solarTime"></div>
   <div class="clock-time">
-    <span id="hourTime">00</span>
+    <span id="hourTime" class="clock-font">00</span>
     <span class="colon">:</span>
-    <span id="minuteTime">00</span>
+    <span id="minuteTime" class="clock-font">00</span>
     <span class="colon">:</span>
-    <span id="secondTime">00</span>
+    <span id="secondTime" class="clock-font">00</span>
   </div>
 </div>
 
-
 <!--    搜索栏    -->
 
+---
 
 <!--    快捷栏    -->
-<div style="display: flex; flex-wrap: wrap; gap: 55px; margin-top: 40px; border-radius: 15px; width: 100%; padding: 20px;">
-  <div class="shortcut">
-    <a href="https://www.leeyearn.cn/" target="_blank">
-      <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
-    </a>
+<div style="display: flex; flex-wrap: wrap; margin-top: 0px; border-radius: 15px; width: 100%; padding: 20px; justify-content: center;">
+  <a href="https://www.leeyearn.cn/" target="_blank" class="shortcut">
+    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
     <code class="shortcut-font"><b>Ex-Blog</b></code>
-  </div>
-  <div class="shortcut">
-      <a href="/public" target="_blank">
-          <img class="shortcut-icon" src="https://img.icons8.com/fluency/96/folder-invoices--v2.png" alt="github"/>
-      </a>
-      <code sclass="shortcut-font"><b>Public</b></code>
-  </div>
-  <div class="shortcut">
-      <a href="/private" target="_blank">
-          <img class="shortcut-icon" src="https://img.icons8.com/fluency/96/porn-folder.png" alt="github"/>
-      </a>
-      <code class="shortcut-font"><b>Private</b></code>
-  </div>
+  </a>
+  <a href="/public" target="_blank" class="shortcut">
+    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
+    <code class="shortcut-font"><b>Public</b></code>
+  </a>
+  <a href="/private" target="_blank" class="shortcut">
+    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
+    <code class="shortcut-font"><b>Private</b></code>
+  </a>
 </div>
 
 <script>
