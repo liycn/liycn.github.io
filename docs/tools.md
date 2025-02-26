@@ -13,9 +13,12 @@ glightbox: false
     display: none;
   }
 </style>
-<h2 align="center" style="margin: 0 0 50px 0;">Innovation that everyone can enjoy<br>让每个人都能享受科技的乐趣</h2>
 
-<h2 style="font-weight: bolder; line-height:1;">花开花落终有时</h2>
+<h2 align="center" style="margin: 0 0 50px 0;">Always believe that something wonderful is about to happen.<br>永远相信美好的事情即将发生</h2>
+
+---
+
+<h2 align="center" style="font-weight: bolder; line-height:1;">问君何能尔，心远地自偏</h2>
 
 <div class="grid cards" markdown>
 
@@ -25,9 +28,19 @@ glightbox: false
 - :other-gemini: [__Gemini - 轻松对话，获取创意灵感__](https://gemini.google.com/app){target="_blank"}
 
 </div>
+---
 
+<!-- <h2 align="center" style="font-weight: bolder; line-height:1;">还没想好</h2>
 
-<h2 style="font-weight: bolder;">相逢相聚本无意</h2>
+<div class="grid cards" markdown>
+
+- :icons8-deepseek: [__GitHub__](https://chat.deepseek.com/a/chat){target="_blank"}
+
+</div>
+
+--- -->
+
+<h2 align="center" style="font-weight: bolder;">花开花落终有时, 相逢相聚本无意</h2>
 
 <div class="grid cards" markdown>
 
@@ -83,7 +96,7 @@ glightbox: false
 
     ---
 
-    厂长影视官网 | 超清视频站
+    摸鱼看电影电视剧。有提供海量 1080P 经典影视免费观看！
 
     [:octicons-arrow-right-24: 去看看](https://www.czzy.site/){target="_blank"}
 
@@ -91,9 +104,11 @@ glightbox: false
 
     ---
 
-    很便宜，很赔钱。超便宜低价高速机场
+    很便宜，很赔钱。超便宜低价高速机场。
 
-    [:octicons-arrow-right-24: 去看看](https://xn--mes358aby2apfg.com/#/register?code=If4MXXad){target="_blank"}
+    [:octicons-arrow-right-24: 需要代理](https://xn--mes358aby2apfg.com/#/register?code=If4MXXad){target="_blank"}
+     | [可以直连](https://xn--cp3a08l.com/#/register?code=7KiFX6Bk){target="_blank"}
+     | [我的专属链接](https://xn--mes358aby2apfg.com){target="_blank"}
 
 -   :icons8-webutility: __WebUtility - Image To SVG__
 
@@ -110,12 +125,13 @@ glightbox: false
     让你简单地绕过地区限制，无需使用实体 SIM 卡即可接收 180 多个国家的短信验证。
 
     [:octicons-arrow-right-24: 去看看](https://sms-activate.guru/?ref=12351402){target="_blank"}
+     | [我的专属链接](https://sms-activate.guru){target="_blank"}
 
 -   :icons8-removebg: __Remove.bg__
 
     ---
 
-    在线抠图软件轻松实现一键抠图，只需上传图片，无需其他操作，即可100%自动去除图片背景。
+    在线抠图软件轻松实现一键抠图，只需上传图片，即可100%自动去除图片背景。
 
     [:octicons-arrow-right-24: 去看看](https://www.remove.bg/zh){target="_blank"}
 
