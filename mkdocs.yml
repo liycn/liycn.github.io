@@ -110,6 +110,7 @@ nav:
   - OpenWrt: 
     - 搭建 OpenVPN 服务器: blog/posts/Open Wrt/OpenVPN_Server.md
   - Knowledge:
+    - 科学激活 JetBrains 全产品: blog/posts/Knowledge/科学激活 JetBrains 全产品.md
     - 双系统时间同步问题: blog/posts/Knowledge/双系统时间同步问题.md
     - DNS: blog/posts/Knowledge/what-is-dns.md
 - Recom: recom/index.md
