@@ -9,6 +9,7 @@ repo_name: LeeYearn                                     # 仓库名称
 theme:
   name: material
   language: zh
+  custom_dir: overrides
 
   icon:
     logo: material/dog                        # Logo 图标
@@ -40,7 +41,6 @@ theme:
     - content.code.copy           # 代码复制按钮
     - content.code.annotate       # 代码注释
     - content.tabs.link           # 链接内容选项卡
-    - custom_dir: overrides       # 自定义主题的目录
     - navigation.tabs             # 导航栏始终显示
     - navigation.tabs.sticky      # 导航栏始终显示
     - navigation.sections         # 不折叠导航栏
@@ -98,7 +98,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+      options:
+        custom_icons:
+          - overrides/.icons
+      
 nav:
 - Home: index.md
 - Tools: tools.md
