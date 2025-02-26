@@ -1,3 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
-                    <image xlink:href="data:image/png;base64,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" x="0" y="0" width="96" height="96"/>
-                  </svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Layer_2" style="display:none;">
+</g>
+<g id="Layer_1" style="display:none;">
+</g>
+<g id="Layer_3">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10" y1="27" x2="46" y2="27">
+		<stop  offset="0" style="stop-color:#28AFEA"/>
+		<stop  offset="1" style="stop-color:#0B88DA"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M44,41H12c-1.105,0-2-0.895-2-2V15c0-1.105,0.895-2,2-2h32c1.105,0,2,0.895,2,2v24
+		C46,40.105,45.105,41,44,41z"/>
+	<path style="fill:#50E6FF;" d="M36,34H4c-1.105,0-2-0.895-2-2V8c0-1.105,0.895-2,2-2h32c1.105,0,2,0.895,2,2v24
+		C38,33.105,37.105,34,36,34z"/>
+	<path style="fill:#50E6FF;" d="M33,31H7c-1.105,0-2-0.895-2-2V11c0-1.105,0.895-2,2-2h26c1.105,0,2,0.895,2,2v18
+		C35,30.105,34.105,31,33,31z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="17" y1="25.6711" x2="35" y2="25.6711">
+		<stop  offset="0" style="stop-color:#3CCBF4"/>
+		<stop  offset="1" style="stop-color:#1FA0E5"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_2_);" d="M35,27.706l-6.805-6.805c-0.731-0.731-1.911-0.746-2.661-0.036L17,28.765L19.823,31h14.118
+		C34.526,31,35,30.526,35,29.941V27.706z"/>
+	<circle style="fill:#FFF8DE;" cx="29.5" cy="14.5" r="2"/>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="15.4767" y1="-849.9671" x2="15.4767" y2="-865.2612" gradientTransform="matrix(1 0 0 -1 0 -834)">
+		<stop  offset="0" style="stop-color:#28AFEA"/>
+		<stop  offset="1" style="stop-color:#0B88DA"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);" d="M25.953,31L13.802,16.706c-0.924-0.924-2.413-0.943-3.361-0.045L5,21.814v8.114
+		C5,30.52,5.48,31,6.071,31H25.953z"/>
+</g>
+</svg>

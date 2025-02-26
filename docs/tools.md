@@ -31,7 +31,7 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
--   :icons8-internet: __IT DOG__
+-   :icons8-itdog: __IT DOG__
 
     ---
 
@@ -135,7 +135,7 @@ glightbox: false
 
     [:octicons-arrow-right-24: 去看看](https://www.remove.bg/zh){target="_blank"}
 
--   :other-byrutor: __BYRUTOR__
+-   :icons8-byrutor: __BYRUTOR__
 
     ---
 
