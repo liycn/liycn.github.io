@@ -20,7 +20,7 @@ glightbox: false
 <div class="grid cards" markdown>
 
 - :icons8-deepseek: [__DeepSeek - 探索未至之境__](https://chat.deepseek.com/a/chat){target="_blank"}
-- :other-grok: [__Grok - 构建推动人类进步的人工智能__](https://grok.com/){target="_blank"}
+- :icons8-grok: [__Grok - 构建推动人类进步的人工智能__](https://grok.com/){target="_blank"}
 - :icons8-chatgpt: [__Chat GPT - 获得答案、寻找灵感、提高效率__](https://chat.openai.com/chat){target="_blank"}
 - :other-gemini: [__Gemini - 轻松对话，获取创意灵感__](https://gemini.google.com/app){target="_blank"}
 
@@ -139,7 +139,7 @@ glightbox: false
 
     ---
 
-    毛子的游戏网站。最新完整版本的 PC 游戏，包含所有更新和添加内容，每日发布新游戏。
+    毛子的游戏资源网站。最新完整版本的 PC 游戏，包含所有更新和添加内容，每日发布新游戏。
 
     [:octicons-arrow-right-24: 去看看](https://byrutgame.org/){target="_blank"}
 
