@@ -9,22 +9,24 @@
   /* min-width: 591px; */
 }
 .clock-time {
-  font-size: 4rem;
-  display: inline-block;
   transition: transform 0.3s;
-  line-height: 1em;
-  padding-top: 0.1em;
 }
 .clock-time:hover {
   transform: scale(1.1);
 }
+.clock-font{
+  font-size: 3rem;
+  display: inline-block;
+  line-height: 1em;
+  padding-top: 0.1em;
+}
 .colon {
-  font-size: 4rem;
+  font-size: 2rem;
   transition: opacity 0.5s; /* 平滑过渡透明度变化 */
-  margin: 0 0em; /* 调整冒号左右间距 */
+  margin: 0; /* 调整冒号左右间距 */
 }
 .solar-time {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-top: 0px;
   margin-top: 0px;
   line-height: 1em;
@@ -33,6 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin:0 15px 0 15px;
 }
 .shortcut-icon{
   width: 64px;
@@ -40,53 +43,7 @@
   border-radius: 10%
 }
 .shortcut-font{
-  font-size: 18px;
+  font-size: 48px;
   margin: 0;
+  margin-top: 7px;
 }
-.extension{
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.extension-icon{
-  width: 48px;
-  height: 48px;
-}
-.extension-font{
-  font-size: 16px;
-  margin: 0;
-}
-.Friendly {
-  margin: 20px;
-  display: flex;
-  align-items: center; /* 垂直居中 */
-  /* justify-content: center; 整体水平居中 */
-}
-
-.Friendly div {
-  display: flex;
-  flex-direction: column; /* 设置b和p垂直排列 */
-}
-
-.Friendly-icon {
-  width: 68px;
-  height: 68px;
-  margin-right: 15px; /* 图片和文字之间的间距 */
-  border-radius: 10%;
-}
-
-.Friendly-font {
-  font-size: 20px;
-  margin: 0;
-}
-
-.Friendly-font-note {
-  font-size: 15px;
-  margin: 0;
-  color: #666; /* 副标题颜色 */
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> da5b50f21d10fc8000c655a4c53b6b2567a6a418

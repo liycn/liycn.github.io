@@ -5,7 +5,6 @@ date:
 readtime: 20
 ---
 
-## 什么是 DNS
 DNS（Domain Name System，域名系统）是一种将域名转换为 IP 地址的系统。
 
 !!! info "说人话"
