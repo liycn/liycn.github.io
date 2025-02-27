@@ -16,14 +16,11 @@ glightbox: false
 
 <link rel="stylesheet" href="/stylesheets/index.css">
 
+
 <div>
     <h2 style="font-weight: bolder; margin-top: 0;line-height:1;">首先</h2>
     这个网站是基于<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank"> Material for MkDocs </a>建立的，
 </div>
-
-
-
-
 
 <div>
     <h2 style="font-weight: bolder;">相关链接</h2>
@@ -107,27 +104,7 @@ glightbox: false
 - [__Sevenalist__ <br> Never Stop Thinking.](https://dczcq.cn){target="_blank"}
     
 </div>
+
 <script>
-    // 动态检测屏幕宽度
-    function adjustLayout() {
-        const screenWidth = window.innerWidth;
-        const images = document.querySelectorAll('.education-image');
-        const container = document.querySelector('.education-container'); // 使用 class 选择器
-
-        if (screenWidth < 768) {
-            // 小屏幕：隐藏图片，调整 margin
-            images.forEach(img => img.style.display = 'none');
-            container.style.margin = '0 0 0 0';
-        } else {
-            // 大屏幕：显示图片，恢复 margin
-            images.forEach(img => img.style.display = 'block');
-            container.style.margin = '0 0 0 50px';
-        }
-    }
-
-    // 初始加载时调用
-    adjustLayout();
-
-    // 窗口大小变化时调用
-    window.addEventListener('resize', adjustLayout);
+    
 </script>

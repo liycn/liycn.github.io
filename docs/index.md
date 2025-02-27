@@ -33,6 +33,13 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    搜索栏    -->
 
+<div class="container">
+    <div class="card" style="--clr: #f00;"></div>
+    <div class="card" style="--clr: #0f0;"></div>
+    <div class="card" style="--clr: #0fe;"></div>
+    <div class="card" style="--clr: #ff0;"></div>
+  </div>
+
 ---
 
 <!--    快捷栏    -->
@@ -50,6 +57,7 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
     <code class="shortcut-font"><b>Private</b></code>
   </a>
 </div>
+
 
 <script>
   // 当前时间
@@ -103,4 +111,17 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
       toggleColonOpacity(); // 呼吸结束后恢复透明度
     }, 400); // 600毫秒后恢复
   }, 1500); // 每1000毫秒进行一次完整的呼吸周期
+
+
+cards.forEach(card => {
+    card.onmousemove = (event) => {
+      const { pageX, pageY } = event;
+      
+      const x = pageX - card.offsetLeft,
+            y = pageY - card.offsetTop;
+      
+      card.style.setProperty('--x', x + 'px');
+      card.style.setProperty('--y', y + 'px');
+    }
+  })
 </script>
