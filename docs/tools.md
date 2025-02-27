@@ -24,7 +24,7 @@ glightbox: false
 
 - :icons8-deepseek: [__DeepSeek - 探索未至之境__](https://chat.deepseek.com/a/chat){target="_blank"}
 - :icons8-grok: [__Grok - 构建推动人类进步的人工智能__](https://grok.com/){target="_blank"}
-- :icons8-chatgpt: [__Chat GPT - 获得答案、寻找灵感、提高效率__](https://chat.openai.com/chat){target="_blank"}
+- :icons8-chatgpt: [__Chat GPT - 获得答案、寻找灵感__](https://chat.openai.com/chat){target="_blank"}
 - :other-gemini: [__Gemini - 轻松对话，获取创意灵感__](https://gemini.google.com/app){target="_blank"}
 
 </div>
@@ -67,6 +67,7 @@ glightbox: false
     大型图标素材包，超过1万个图标，无论用于哪种设计作品，都可以找到风格统一的图标。
 
     [:octicons-arrow-right-24: 去看看](https://igoutu.cn/icons){target="_blank"}
+     | [专属链接](https://igoutu.cn/icons/fluency){target="_blank"}
 
 -   :icons8-pexels: __Pexels__
 

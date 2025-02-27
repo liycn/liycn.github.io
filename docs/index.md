@@ -33,30 +33,19 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    搜索栏    -->
 
-<div class="container">
-    <div class="card" style="--clr: #f00;"></div>
-    <div class="card" style="--clr: #0f0;"></div>
-    <div class="card" style="--clr: #0fe;"></div>
-    <div class="card" style="--clr: #ff0;"></div>
-  </div>
-
 ---
 
 <!--    快捷栏    -->
-<div style="display: flex; flex-wrap: wrap; margin-top: 0px; border-radius: 15px; width: 100%; padding: 20px; justify-content: center;">
-  <a href="https://www.leeyearn.cn/" target="_blank" class="shortcut">
-    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
-    <code class="shortcut-font"><b>Ex-Blog</b></code>
-  </a>
-  <a href="/public" target="_blank" class="shortcut">
-    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
-    <code class="shortcut-font"><b>Public</b></code>
-  </a>
-  <a href="/private" target="_blank" class="shortcut">
-    <img class="shortcut-icon" src="https://www.leeyearn.cn/static/userAvatar/LeeYearn11729748231056641.jpg"/>
-    <code class="shortcut-font"><b>Private</b></code>
-  </a>
-</div>
+[:material-folder: __Public__ ](https://github.com/LeeYearn){ .md-button target="_blank" }
+[:material-folder-key: __Private__ ](https://github.com/LeeYearn){ .md-button target="_blank" }
+<!-- [:material-folder-key: __Private__ ](https://github.com/LeeYearn){ .md-button target="_blank" } -->
+<!-- :fontawesome-solid-code: -->
+---
+
+[:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
+[:fontawesome-solid-code: __重大毕设系统__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
+[:material-speedometer: __内网测速__ ](http://10.0.0.1:3300){ .md-button target="_blank" }
+[:material-dns: __Lucky__ ](http://10.0.0.1:16601){ .md-button target="_blank" }
 
 
 <script>
@@ -111,17 +100,4 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
       toggleColonOpacity(); // 呼吸结束后恢复透明度
     }, 400); // 600毫秒后恢复
   }, 1500); // 每1000毫秒进行一次完整的呼吸周期
-
-
-cards.forEach(card => {
-    card.onmousemove = (event) => {
-      const { pageX, pageY } = event;
-      
-      const x = pageX - card.offsetLeft,
-            y = pageY - card.offsetTop;
-      
-      card.style.setProperty('--x', x + 'px');
-      card.style.setProperty('--y', y + 'px');
-    }
-  })
 </script>

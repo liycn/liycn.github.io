@@ -1,3 +1,12 @@
 .md-grid {
-    max-width: 1440px; 
-  }
+  max-width: 1440px; 
+}
+
+@font-face {
+  font-family: "MiSans";
+  src: url("https://font.sec.miui.com/font/css?family=MiSans:400,700:MiSans");
+}
+
+:root {
+  --md-text-font: "MiSans"; 
+}
