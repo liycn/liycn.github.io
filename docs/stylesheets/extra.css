@@ -10,3 +10,7 @@
 :root {
   --md-text-font: "MiSans"; 
 }
+
+.md-button{
+  margin: 2px 0 2px 0;
+}
