@@ -77,8 +77,6 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- [__My ex blog__ <br> 心远地自偏](https://dxlcq.cn){target="_blank"}
-
 - [__骄骄__ <br> 骄骄是骄傲的骄](https://dxlcq.cn){target="_blank"}
     
 - [__Sevenalist__ <br> Never Stop Thinking.](https://dczcq.cn){target="_blank"}
