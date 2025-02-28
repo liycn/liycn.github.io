@@ -17,7 +17,7 @@ theme:
   
   palette:
     - media: "(prefers-color-scheme: light)"  # 日间模式
-      scheme: default                         # 
+      scheme: default #default / slate
       primary: indigo                         # 导航栏背景色
 
     # # Palette toggle for dark mode
