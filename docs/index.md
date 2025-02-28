@@ -31,15 +31,27 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
   </div>
 </div>
 
-<!--    搜索栏    -->
-<div class="input-container">
-  <input type="text" placeholder="还没写好搜索功能，只是输入框有了" class="gradient-input" />
+<!-- 搜索引擎按钮 -->
+<div class="search-container" onselectstart="return false">
+  <ul class="search-engine-buttons" style="margin-left: 0;display: flex; list-style: none;margin:50px  0 0 0;">
+    <li class ="search-englne-text" data-engine="google">Google</li>
+    <li class ="search-englne-text" data-engine="bing">Bing</li>
+    <li class ="search-englne-text" data-engine="baidu">Baidu</li>
+    <li class ="search-englne-text" data-engine="github">GitHub</li>
+    <li class ="search-englne-text" data-engine="bilibili">Bilibili</li>
+  </ul>
 </div>
 
+<!-- 搜索输入框 -->
+<div class="input-container">
+  <input type="text" id="search-input" placeholder="回车搜索" class="gradient-input" />
+</div>
 
 <!--    快捷栏    -->
+
 [:material-folder: __光明正大__ ](\public){ .md-button target="_blank" style="margin-top:40px" }
 [:material-folder-lock: __深藏不露__ ](\private){ .md-button target="_blank" }
+
 [:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
 [:fontawesome-solid-code: __重大毕设__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
 [:simple-openwrt: __OpenWrt__ ](http://10.0.0.1){ .md-button target="_blank" }

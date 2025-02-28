@@ -50,8 +50,57 @@ setInterval(() => {
   }, 400); // 600毫秒后恢复
 }, 1500); // 每1000毫秒进行一次完整的呼吸周期
 
+// 搜索引擎选择
+let selectedEngine = "google"; // 默认搜索引擎
 
-const label = document.querySelector(".container label");
-const textList = label.innerText.split("");
+const engineButtons = document.querySelectorAll(".search-engine-buttons li");
+engineButtons.forEach(button => {
+  // 将按钮文本拆分为单个字母
+  const textList = button.innerText.split("");
+  button.innerHTML = textList.map((letter, i) => `<span style="transition-delay: ${i * 40}ms">${letter}</span>`).join("");
 
-label.innerHTML = textList.map((letter, i) => `<span style="transition-delay: ${i * 30}ms;filter: hue-rotate(${i * 10}deg);">${letter}</span>`).join("");
+  // 点击事件
+  button.addEventListener("click", () => {
+    // 移除所有按钮的 active 类
+    engineButtons.forEach(btn => btn.classList.remove("active"));
+    // 为当前点击的按钮添加 active 类
+    button.classList.add("active");
+    // 更新选择的搜索引擎
+    selectedEngine = button.getAttribute("data-engine");
+  });
+});
+
+// 默认选中第一个按钮
+document.querySelector('.search-engine-buttons li[data-engine="google"]').classList.add("active");
+
+// 回车搜索功能
+const searchInput = document.getElementById("search-input");
+searchInput.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    const query = searchInput.value.trim();
+    if (query) {
+      let searchUrl = "";
+      switch (selectedEngine) {
+        case "google":
+          searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+          break;
+        case "bing":
+          searchUrl = `https://www.bing.com/search?q=${encodeURIComponent(query)}`;
+          break;
+        case "baidu":
+          searchUrl = `https://www.baidu.com/s?wd=${encodeURIComponent(query)}`;
+          break;
+        case "github":
+          searchUrl = `https://github.com/search?q=${encodeURIComponent(query)}`;
+          break;
+        case "bilibili":
+          searchUrl = `https://search.bilibili.com/all?keyword=${encodeURIComponent(query)}`;
+          break;
+        default:
+          searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+      }
+      searchInput.value = "";
+      window.open(searchUrl, "_blank");
+    }
+  }
+});
