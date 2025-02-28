@@ -28,6 +28,7 @@ glightbox: false
 [ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank"}
 [ :simple-youtube: __YouTube__ ](https://www.youtube.com/@leeyearn){ .md-button .md-button--primary target="_blank"}
 [ :fontawesome-brands-tiktok: __抖音__ ](https://www.douyin.com/user/MS4wLjABAAAAOvMRoJmc5JWGlQQh0Db9Iml88UFzcLf0wmfEIi4GWEvBIUPGaDtuopwiqyE4C3an?from_tab_name=main&vid=7358879260318207242){ .md-button .md-button--primary target="_blank"}
+[ :fontawesome-brands-steam-symbol: __Steam__ ](https://steamcommunity.com/profiles/76561199004333008/){ .md-button .md-button--primary target="_blank"}
 
 
 ---
