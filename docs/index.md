@@ -33,22 +33,23 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    搜索栏    -->
 <div class="input-container">
-  <input type="text" placeholder="请输入内容" class="gradient-input" />
+  <input type="text" placeholder="还没写好搜索功能，只是输入框有了" class="gradient-input" />
 </div>
 
 ---
 
 <!--    快捷栏    -->
-[:material-folder: __Public__ ](https://github.com/LeeYearn){ .md-button target="_blank" }
-[:material-folder-key: __Private__ ](https://github.com/LeeYearn){ .md-button target="_blank" }
+[:material-folder: __光明正大__ ](\public){ .md-button target="_blank" }
+[:material-folder-lock: __深藏不露__ ](\private){ .md-button target="_blank" }
 <!-- [:material-folder-key: __Private__ ](https://github.com/LeeYearn){ .md-button target="_blank" } -->
 <!-- :fontawesome-solid-code: -->
 ---
 
 [:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
-[:fontawesome-solid-code: __重大毕设系统__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
+[:fontawesome-solid-code: __重大毕设__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
+[:simple-openwrt: __OpenWrt__ ](http://10.0.0.1){ .md-button target="_blank" }
 [:material-speedometer: __内网测速__ ](http://10.0.0.1:3300){ .md-button target="_blank" }
-[:material-dns: __Lucky__ ](http://10.0.0.1:16601){ .md-button target="_blank" }
+[:material-dns: __内网穿透__ ](http://10.0.0.1:16601){ .md-button target="_blank" }
 
 
 <script type="text/javascript" src="./javascripts/index.js"></script>
