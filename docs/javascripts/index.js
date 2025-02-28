@@ -87,14 +87,8 @@ searchInput.addEventListener("keypress", (event) => {
         case "bing":
           searchUrl = `https://www.bing.com/search?q=${encodeURIComponent(query)}`;
           break;
-        case "baidu":
-          searchUrl = `https://www.baidu.com/s?wd=${encodeURIComponent(query)}`;
-          break;
-        case "github":
-          searchUrl = `https://github.com/search?q=${encodeURIComponent(query)}`;
-          break;
-        case "bilibili":
-          searchUrl = `https://search.bilibili.com/all?keyword=${encodeURIComponent(query)}`;
+        case "wikipedia":
+          searchUrl = `https://zh.wikipedia.org/wiki/${encodeURIComponent(query)}`;
           break;
         default:
           searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;

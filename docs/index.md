@@ -34,11 +34,9 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 <!-- 搜索引擎按钮 -->
 <div class="search-container" onselectstart="return false">
   <ul class="search-engine-buttons" style="margin-left: 0;display: flex; list-style: none;margin:50px  0 0 0;">
-    <li class ="search-englne-text" data-engine="google">Google</li>
-    <li class ="search-englne-text" data-engine="bing">Bing</li>
-    <li class ="search-englne-text" data-engine="baidu">Baidu</li>
-    <li class ="search-englne-text" data-engine="github">GitHub</li>
-    <li class ="search-englne-text" data-engine="bilibili">Bilibili</li>
+    <li class ="search-englne-text" data-engine="google" style="margin-left: 0px">Google</li>
+    <li class ="search-englne-text" data-engine="bing" style="margin-left: 0px">Bing</li>
+    <li class ="search-englne-text" data-engine="wikipedia" style="margin-left: 0px">Wikipedia</li>
   </ul>
 </div>
 

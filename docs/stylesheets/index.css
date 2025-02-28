@@ -121,9 +121,11 @@
   transition: color 0.25s, text-shadow 0.25s;
 }
 .search-englne-text{
-  margin-left: 0;
+  margin-left: 0px;
   margin-bottom: 0;
   line-height: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-engine-buttons li span {
