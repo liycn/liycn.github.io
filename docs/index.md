@@ -44,7 +44,7 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!-- 搜索输入框 -->
 <div class="input-container">
-  <input type="text" id="search-input" placeholder="回车搜索" class="gradient-input" />
+  <input type="text" id="search-input" placeholder="选择引擎 回车搜索" class="gradient-input" />
 </div>
 
 <!--    快捷栏    -->

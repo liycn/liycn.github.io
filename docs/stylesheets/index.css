@@ -134,12 +134,12 @@
 }
 
 .search-engine-buttons li:hover span {
-  color: #000;
-  text-shadow: 0 0 5px #aaa, 0 0 15px #aaa, 0 0 30px #aaa, 0 0 60px #aaa, 0 0 100px #aaa;
+  color: #161616;
+  text-shadow: 0 0 5px #bcbcbc, 0 0 15px #bcbcbc, 0 0 30px #bcbcbc, 0 0 60px #bcbcbc, 0 0 100px #bcbcbc;
 }
 
 /* 选中效果 */
 .search-engine-buttons li.active span {
-  color: #000;
-  text-shadow: 0 0 5px #aaa, 0 0 15px #aaa, 0 0 30px #aaa, 0 0 60px #aaa, 0 0 100px #aaa;
+  color: #161616;
+  text-shadow: 0 0 5px #bcbcbc, 0 0 15px #bcbcbc, 0 0 30px #bcbcbc, 0 0 60px #bcbcbc, 0 0 100px #bcbcbc;
 }
