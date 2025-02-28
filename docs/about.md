@@ -16,13 +16,13 @@ glightbox: false
 
 <link rel="stylesheet" href="/stylesheets/index.css">
 
+<h2 align="center" style="font-weight: bolder; margin-top: 0;line-height:1;">
+    软硬件整合开发者 | 物联网探索者 | 极客型技术实践者
+</h2>
 
-<div>
-    <h2 style="font-weight: bolder; margin-top: 0;line-height:1;">首先</h2>
-    这个网站是基于<a href="https://squidfunk.github.io/mkdocs-material/" target="_blank"> Material for MkDocs </a>建立的，
-</div>
+<p align="center">"用 20% 的核心技术，解决 80% 的实际问题"</p>
 
-<h2 style="font-weight: bolder;">相关链接</h2>
+## :icons8-link: 联系方式
 
 [ :simple-qq: __QQ__ ](https://user.qzone.qq.com/1317262104/main){ .md-button .md-button--primary target="_blank"}
 [ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank"}
@@ -31,12 +31,54 @@ glightbox: false
 [ :fontawesome-brands-steam-symbol: __Steam__ ](https://steamcommunity.com/profiles/76561199004333008/){ .md-button .md-button--primary target="_blank"}
 
 
----
+## :icons8-skill: 技术拼图
+
+<h3 align="center">硬件层</h3>
+
+<div class="grid cards" markdown>
+
+- :simple-stmicroelectronics: __STM32单片机开发__
+- :material-cable-data: __传感器数据采集__
+
+</div>
+
+<h3 align="center">中间层</h3>
+
+<div class="grid cards" markdown>
+
+- :material-language-cpp: __C/C++嵌入式编程__
+- :simple-python: __Python自动化脚__
+- :fontawesome-brands-java: __Java/Python服务端开发__
+
+</div>
+
+<h3 align="center">网络层</h3>
+
+<div class="grid cards" markdown>
+
+- :simple-openwrt: __基于 OpenWrt 的智能路由配置__
+- :simple-openvpn: __OpenVPN 安全隧道搭建__
+- :simple-nginx: __Nginx 正反向代理__
+
+</div>
+
+<!-- ## 我的极客实验室
+
+家庭自建服务器：将技术热情延伸至生活场景
+
+- 通过 DDNS 实现外网安全访问
+
+- 搭建基于 OpenVPN 的私有网络，配合 Nginx 实现多服务端口统一管理
+
+- 基于 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material){target="_blank"} 建立个人博客
+
+--- -->
 
 <!-- ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left } -->
 
-<!-- <div style="margin-top:50px;border: 1px solid #ddd; border-radius: 10px; padding: 15px;background-color: rgba(249, 249, 249, 0.1);">
-    <h2 style="font-weight: bolder;margin-top:0px;">教育经历</h2>
+
+## :icons8-education: 教育经历
+<div style="margin-top:50px;">
     <div class="education-container" style="display: flex; flex-direction: column; gap: 20px; margin: 0 0 0 50px;">
         <div style="display: flex; align-items: center; gap: 30px; width: 100%; max-width: 800px; flex-wrap: wrap;">
             <img src="/images/about/education/CQU.png" width="180px" style="flex-shrink: 0; display: none;" class="education-image">
@@ -46,7 +88,7 @@ glightbox: false
                      - 
                     <a href="https://eie.cqu.edu.cn/" target="_blank">国家卓越工程师学院</a>
                 </h3>
-                <p><b>时间：</b>2024年9月 ~ 2025年7月 - <b>交流生</b></p>
+                <p><b>时间：</b>2024年9月 ~ 2025年7月 - <b>公费交流生</b></p>
                 <p><b>专业：</b>智能网联汽车</p>
             </div>
         </div>
@@ -71,9 +113,9 @@ glightbox: false
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
-<h2 style="font-weight: bolder;">友链</h2>
+## :icons8-friend-link: 友情链接
 
 <div class="grid cards" markdown>
 
@@ -81,7 +123,7 @@ glightbox: false
     
 - [__Sevenalist__ <br> Never Stop Thinking.](https://dczcq.cn){target="_blank"}
 
-- [__Eason Chan__ <br> 👀](https://www.easonchan.net/hk/?lang=zh-hans){target="_blank"}
+- [__Eason Chan__ <br> 👀（单方面友情）](https://www.easonchan.net/hk/?lang=zh-hans){target="_blank"}
     
 </div>
 
