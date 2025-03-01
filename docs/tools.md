@@ -42,16 +42,7 @@ glightbox: false
 
 <h2 align="center" style="font-weight: bolder;">日暮酒醒人已远，漫天风雨下西楼</h2>
 
-
 <div class="grid cards" markdown>
-
--   :other-pixpin: __PixPin__
-
-    ---
-
-    屏幕截图，录制屏幕，长截图，文字识别，贴图，以及更多功能
-
-    [:octicons-arrow-right-24: 去看看](https://pixpin.cn/){target="_blank"}
 
 -   :icons8-icons8: __Icon 8__
 
@@ -152,5 +143,27 @@ glightbox: false
     毛子的游戏资源网站。最新完整版本的 PC 游戏，包含所有更新和添加内容，每日发布新游戏。
 
     [:octicons-arrow-right-24: 去看看](https://byrutgame.org/){target="_blank"}
+
+</div>
+
+<h2 align="center" style="font-weight: bolder;">城南小陌又逢春，只见梅花不见人</h2>
+
+<div class="grid cards" markdown>
+
+-   :other-pixpin: __PixPin__
+
+    ---
+
+    屏幕截图，录制屏幕，长截图，文字识别，贴图，以及更多功能
+
+    [:octicons-arrow-right-24: 去看看](https://pixpin.cn/){target="_blank"}
+
+-   :other-termius: __Termius__
+
+    ---
+
+    跨平台的终端模拟器和 SSH 客户端 - 为提高生产力和协作而构建
+
+    [:octicons-arrow-right-24: 去看看](https://termius.com/){target="_blank"}
 
 </div>
