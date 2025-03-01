@@ -27,9 +27,8 @@ glightbox: false
 [ :simple-qq: __QQ__ ](https://user.qzone.qq.com/1317262104/main){ .md-button .md-button--primary target="_blank"}
 [ :material-microsoft-outlook: __Outlook__ ](mailto:liycq@outlook.com){ .md-button .md-button--primary target="_blank"}
 [ :simple-gmail: __Gmail__ ](mailto:isleeyearn@gmail.com){ .md-button .md-button--primary target="_blank"}
+[ :simple-telegram: __Telegram__ ](https://t.me/LeeYeaern){ .md-button .md-button--primary target="_blank"}
 [ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank"}
-[ :simple-youtube: __YouTube__ ](https://www.youtube.com/@leeyearn){ .md-button .md-button--primary target="_blank"}
-[ :fontawesome-brands-tiktok: __抖音__ ](https://www.douyin.com/user/MS4wLjABAAAAOvMRoJmc5JWGlQQh0Db9Iml88UFzcLf0wmfEIi4GWEvBIUPGaDtuopwiqyE4C3an?from_tab_name=main&vid=7358879260318207242){ .md-button .md-button--primary target="_blank"}
 [ :fontawesome-brands-steam-symbol: __Steam__ ](https://steamcommunity.com/profiles/76561199004333008/){ .md-button .md-button--primary target="_blank"}
 
 
@@ -39,8 +38,8 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- :simple-stmicroelectronics: __STM32单片机开发__
-- :material-cable-data: __传感器数据采集__
+- :simple-stmicroelectronics: __STM32__ 嵌入式开发
+- :simple-bluetooth: __Bluetooth__ 数据安全
 
 </div>
 
@@ -48,9 +47,12 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- :material-language-cpp: __C/C++嵌入式编程__
-- :simple-python: __Python自动化脚__
-- :fontawesome-brands-java: __Java/Python服务端开发__
+- :material-language-c: __C__ 程序设计开发
+- :material-language-cpp: __C++__ Ros 开发
+- :material-language-python: __Python__ 模型构建 训练 测试
+- :material-language-java: __Java__ 服务端开发
+- :material-vuejs: __VUE__ 前端开发
+- :simple-figma: __Figma__ UI设计 交互原型
 
 </div>
 
@@ -58,9 +60,10 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- :simple-openwrt: __基于 OpenWrt 的智能路由配置__
-- :simple-openvpn: __OpenVPN 安全隧道搭建__
-- :simple-nginx: __Nginx 正反向代理__
+- :simple-linux: __Linux__ 服务器搭建与管理
+- :simple-openwrt: __OpenWrt__ 智能路由配置
+- :simple-openvpn: __OpenVPN__ 安全隧道搭建
+- :simple-nginx: __Nginx__ 正反向代理
 
 </div>
 
@@ -100,7 +103,7 @@ glightbox: false
             <img src="/images/about/education/CQUE.png" width="180px" style="flex-shrink: 0; display: none;" class="education-image">
             <div style="text-align: left; font-size: 18px;">
                 <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">
-                    <a href="https://www.cque.edu.cn/esdztw/sy.html" target="_blank">重庆第二师范学院</a>
+                    <a href="https://www.cque.edu.cn" target="_blank">重庆第二师范学院</a>
                 </h3>
                 <p><b>时间：</b>2023年9月 ~ 2025年7月 - <b>全日制本科</b></p>
                 <p><b>专业：</b>数据科学与大数据技术(曙光合作)</p>
@@ -130,6 +133,12 @@ glightbox: false
 - [__Eason Chan__ <br> 👀（单方面友情）](https://www.easonchan.net/hk/?lang=zh-hans){target="_blank"}
     
 </div>
+
+## :icons8-end: 写在最后
+
+网站由 [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/){target="_blank"} 项目作为基础搭建而成。期间图标不仅有项目本身的，还用了 [**icons8**](https://igoutu.cn/){target="_blank"} 的图标。由于囊中羞涩只能通过 [**WebUtility**](https://webutility.io/){target="_blank"} 项目将下载的资源转成 SVG 图标。
+
+感谢以上提到的项目。诚挚感谢~
 
 <script>
     // 动态检测屏幕宽度
