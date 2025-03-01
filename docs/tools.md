@@ -14,11 +14,11 @@ glightbox: false
   }
 </style>
 
-<h2 align="center" style="margin: 0 0 50px 0;">Always believe that something wonderful is about to happen.<br>永远相信美好的事情即将发生</h2>
+<h2 align="center" style="margin: 0 0 50px 0;">Always believe that something wonderful is about to happen.<br>- 永远相信美好的事情即将发生 -</h2>
 
 ---
 
-<h2 align="center" style="font-weight: bolder; line-height:1;">问君何能尔，心远地自偏</h2>
+<h2 align="center" style="font-weight: bolder; line-height:1;">- 问君何能尔，心远地自偏 -</h2>
 
 <div class="grid cards" markdown>
 
@@ -28,19 +28,20 @@ glightbox: false
 - :other-gemini: [__Gemini - 轻松对话，获取创意灵感__](https://gemini.google.com/app){target="_blank"}
 
 </div>
----
 
-<h2 align="center" style="font-weight: bolder;">花开花落终有时, 相逢相聚本无意</h2>
+<h2 align="center" style="font-weight: bolder;">- 花开花落终有时，相逢相聚本无意 -</h2>
 
 <div class="grid cards" markdown>
 
--   :icons8-USTC: [__中国科学技术大学测速网站__](https://www.itdog.cn/ping/){target="_blank"}
+-   :icons8-itdog: [__IT DOG__ - 网络延迟测试、服务器延迟测试](https://www.itdog.cn/ping/){target="_blank"}
 
--   :icons8-itdog: [__IT DOG__ - 网络延迟测试、服务器延迟测试](https://test.ustc.edu.cn/){target="_blank"}
+-   :icons8-USTC: [__中科大测速__ - by 中科大网络空间安全学院](https://test.ustc.edu.cn/){target="_blank"}
+
+-   :icons8-cloudflare: [__Cloudflare__ - 为 "无处不在的世界" 打造的云](https://dash.cloudflare.com/){target="_blank"}
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">日暮酒醒人已远，漫天风雨下西楼</h2>
+<h2 align="center" style="font-weight: bolder;">- 日暮酒醒人已远，漫天风雨下西楼 -</h2>
 
 <div class="grid cards" markdown>
 
@@ -103,23 +104,6 @@ glightbox: false
 
     [:octicons-arrow-right-24: 去看看](https://webutility.io/image-to-svg-converter){target="_blank"}
 
--   :icons8-sms: __SMS - Activate__
-
-    ---
-
-    让你简单地绕过地区限制，无需使用实体 SIM 卡即可接收 180 多个国家的短信验证。
-
-    [:octicons-arrow-right-24: 去看看](https://sms-activate.guru/?ref=12351402){target="_blank"}
-     | [我的专属链接](https://sms-activate.guru){target="_blank"}
-
--   :icons8-removebg: __Remove.bg__
-
-    ---
-
-    在线抠图软件轻松实现一键抠图，只需上传图片，即可100%自动去除图片背景。
-
-    [:octicons-arrow-right-24: 去看看](https://www.remove.bg/zh){target="_blank"}
-
 -   :icons8-highlightcode: __Highlight Code__
 
     ---
@@ -127,14 +111,6 @@ glightbox: false
     代码在线高亮工具，将高亮美化的代码一键粘贴到 Word 或 OneNote 中。
 
     [:octicons-arrow-right-24: 去看看](https://highlightcode.com/){target="_blank"}
-
--   :icons8-thepiratebay: __The Pirate Bay__
-
-    ---
-
-    大名鼎鼎的海盗湾。专门存储、分类及搜索Bittorrent种子文件及磁力链接的网站。
-
-    [:octicons-arrow-right-24: 去看看](https://www.remove.bg/zh){target="_blank"}
 
 -   :icons8-byrutor: __BYRUTOR__
 
@@ -146,7 +122,7 @@ glightbox: false
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">城南小陌又逢春，只见梅花不见人</h2>
+<h2 align="center" style="font-weight: bolder;">- 城南小陌又逢春，只见梅花不见人 -</h2>
 
 <div class="grid cards" markdown>
 
@@ -165,5 +141,15 @@ glightbox: false
     跨平台的终端模拟器和 SSH 客户端 - 为提高生产力和协作而构建
 
     [:octicons-arrow-right-24: 去看看](https://termius.com/){target="_blank"}
+
+-   :icons8-sms: __SMS - Activate__ 
+
+    ---
+
+    绕过地区限制，无需使用实体 SIM 卡即可接收 180 多个国家的短信验证。
+    
+
+    [:octicons-arrow-right-24: 去看看](https://sms-activate.guru/?ref=12351402){target="_blank"}
+     | 促销代码 `12351402`
 
 </div>
