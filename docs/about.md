@@ -25,6 +25,8 @@ glightbox: false
 ## :icons8-link: 联系方式
 
 [ :simple-qq: __QQ__ ](https://user.qzone.qq.com/1317262104/main){ .md-button .md-button--primary target="_blank"}
+[ :material-microsoft-outlook: __Outlook__ ](mailto:liycq@outlook.com){ .md-button .md-button--primary target="_blank"}
+[ :simple-gmail: __Gmail__ ](mailto:isleeyearn@gmail.com){ .md-button .md-button--primary target="_blank"}
 [ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank"}
 [ :simple-youtube: __YouTube__ ](https://www.youtube.com/@leeyearn){ .md-button .md-button--primary target="_blank"}
 [ :fontawesome-brands-tiktok: __抖音__ ](https://www.douyin.com/user/MS4wLjABAAAAOvMRoJmc5JWGlQQh0Db9Iml88UFzcLf0wmfEIi4GWEvBIUPGaDtuopwiqyE4C3an?from_tab_name=main&vid=7358879260318207242){ .md-button .md-button--primary target="_blank"}
