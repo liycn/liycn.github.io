@@ -49,13 +49,14 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 [:material-folder: __正大光明__ ](\public){ .md-button target="_blank" style="margin-top:40px" }
 [:material-folder-lock: __深藏不露__ ](\private){ .md-button target="_blank" }
-[:material-google-translate: __Translate__ ](https://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate){ .md-button target="_blank" }
-
-[:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
-[:fontawesome-solid-code: __重大毕设__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
 [:simple-openwrt: __OpenWrt__ ](http://10.0.0.1){ .md-button target="_blank" }
 [:material-speedometer: __内网测速__ ](http://10.0.0.1:3300){ .md-button target="_blank" }
 [:material-router-network-wireless: __内网穿透__ ](http://10.0.0.1:16601){ .md-button target="_blank" }
+
+[:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
+[:fontawesome-solid-code: __卓工毕设__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }
+[:material-google-translate: __Translate__ ](https://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate){ .md-button target="_blank" }
+[:fontawesome-brands-google-scholar: __谷歌学术__ ](https://scholar.google.com/){ .md-button target="_blank" }
 
 
 <script type="text/javascript" src="./javascripts/index.js"></script>
