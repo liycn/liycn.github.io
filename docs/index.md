@@ -47,8 +47,9 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    快捷栏    -->
 
-[:material-folder: __光明正大__ ](\public){ .md-button target="_blank" style="margin-top:40px" }
+[:material-folder: __正大光明__ ](\public){ .md-button target="_blank" style="margin-top:40px" }
 [:material-folder-lock: __深藏不露__ ](\private){ .md-button target="_blank" }
+[:material-google-translate: __Translate__ ](https://translate.google.com/?hl=zh-CN&sl=en&tl=zh-CN&op=translate){ .md-button target="_blank" }
 
 [:material-school: __重大教务__ ](https://my.cqu.edu.cn/workspace/home){ .md-button target="_blank" }
 [:fontawesome-solid-code: __重大毕设__ ](http://180.85.204.43:50031/){ .md-button target="_blank" }

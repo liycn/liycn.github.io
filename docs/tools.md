@@ -30,27 +30,20 @@ glightbox: false
 </div>
 ---
 
-<!-- <h2 align="center" style="font-weight: bolder; line-height:1;">还没想好</h2>
-
-<div class="grid cards" markdown>
-
-- :icons8-deepseek: [__GitHub__](https://chat.deepseek.com/a/chat){target="_blank"}
-
-</div>
-
---- -->
-
 <h2 align="center" style="font-weight: bolder;">花开花落终有时, 相逢相聚本无意</h2>
 
 <div class="grid cards" markdown>
 
--   :icons8-itdog: __IT DOG__
+-   :icons8-USTC: [__中国科学技术大学测速网站__](https://www.itdog.cn/ping/){target="_blank"}
 
-    ---
+-   :icons8-itdog: [__IT DOG__ - 网络延迟测试、服务器延迟测试](https://test.ustc.edu.cn/){target="_blank"}
 
-    在线ping、多地ping、多线路ping、持续ping、网络延迟测试、服务器延迟测试。
+</div>
 
-    [:octicons-arrow-right-24: 去看看](https://www.itdog.cn/ping/){target="_blank"}
+<h2 align="center" style="font-weight: bolder;">日暮酒醒人已远，漫天风雨下西楼</h2>
+
+
+<div class="grid cards" markdown>
 
 -   :other-pixpin: __PixPin__
 

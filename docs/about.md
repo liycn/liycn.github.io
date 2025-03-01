@@ -89,6 +89,8 @@ glightbox: false
                     <a href="https://cqu.edu.cn/" target="_blank">重庆大学</a>
                      - 
                     <a href="https://eie.cqu.edu.cn/" target="_blank">国家卓越工程师学院</a>
+                     / 
+                    <a href="https://github.com/LeeYearn/RF-Fingerprint-Extraction-for-Bluetooth?tab=readme-ov-file" target="_blank">毕业设计</a>
                 </h3>
                 <p><b>时间：</b>2024年9月 ~ 2025年7月 - <b>公费交流生</b></p>
                 <p><b>专业：</b>智能网联汽车</p>
