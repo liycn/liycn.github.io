@@ -113,5 +113,5 @@ nav:
 - Blog:
   - blog/index.md
   - OS 小知识:
-    - Ubuntu 妙妙小命令: blog/posts/OS/Ubuntu 妙妙小命令.md
+    - Ubuntu 妙妙小命令: blog/posts/OS/妙妙小命令.md
 - About: about.md
