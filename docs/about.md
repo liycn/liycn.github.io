@@ -24,7 +24,7 @@ glightbox: false
 
 ## :icons8-link: 联系方式
 
-[ :simple-qq: __QQ__ ](https://user.qzone.qq.com/1317262104/main){ .md-button .md-button--primary target="_blank"}
+[ :simple-qq: __QQ__ ](https://qm.qq.com/q/L8Psq6fh){ .md-button .md-button--primary target="_blank"}
 [ :material-microsoft-outlook: __Outlook__ ](mailto:liycq@outlook.com){ .md-button .md-button--primary target="_blank"}
 [ :simple-gmail: __Gmail__ ](mailto:isleeyearn@gmail.com){ .md-button .md-button--primary target="_blank"}
 [ :simple-telegram: __Telegram__ ](https://t.me/LeeYeaern){ .md-button .md-button--primary target="_blank"}
@@ -83,43 +83,44 @@ glightbox: false
 
 
 ## :icons8-education: 教育经历
-<div style="margin-top:50px;">
-    <div class="education-container" style="display: flex; flex-direction: column; gap: 20px; margin: 0 0 0 50px;">
-        <div style="display: flex; align-items: center; gap: 30px; width: 100%; max-width: 800px; flex-wrap: wrap;">
-            <img src="/images/about/education/CQU.png" width="180px" style="flex-shrink: 0; display: none;" class="education-image">
-            <div style="text-align: left; font-size: 18px;">
-                <h3 style="font-size: 25px; font-weight: bold; line-height: 1; margin-top: 1em;">
-                    <a href="https://cqu.edu.cn/" target="_blank">重庆大学</a>
-                     - 
-                    <a href="https://eie.cqu.edu.cn/" target="_blank">国家卓越工程师学院</a>
-                     / 
-                    <a href="https://github.com/LeeYearn/RF-Fingerprint-Extraction-for-Bluetooth?tab=readme-ov-file" target="_blank">毕业设计</a>
-                </h3>
-                <p><b>时间：</b>2024年9月 ~ 2025年7月 - <b>公费交流生</b></p>
-                <p><b>专业：</b>智能网联汽车</p>
-            </div>
-        </div>
-        <div style="display: flex; align-items: center; gap: 30px; width: 100%; max-width: 800px; flex-wrap: wrap;margin-top:20px">
-            <img src="/images/about/education/CQUE.png" width="180px" style="flex-shrink: 0; display: none;" class="education-image">
-            <div style="text-align: left; font-size: 18px;">
-                <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">
-                    <a href="https://www.cque.edu.cn" target="_blank">重庆第二师范学院</a>
-                </h3>
-                <p><b>时间：</b>2023年9月 ~ 2025年7月 - <b>全日制本科</b></p>
-                <p><b>专业：</b>数据科学与大数据技术(曙光合作)</p>
-            </div>
-        </div>
-        <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap; margin-top: 20px; ">
-            <img src="/images/about/education/CQNY.png" width="180px" style="flex-shrink: 0; display: none;" class="education-image">
-            <div style="text-align: left; font-size: 18px;">
-                <h3 style="font-size: 25px; font-weight: bolder; line-height: 1; margin-top: 1em;">
-                    <a href="https://www.cqny.edu.cn/" target="_blank">重庆能源职业学院</a>
-                </h3>
-                <p><b>时间：</b>2020年9月 ~ 2023年7月 - <b>全日制专科</b></p>
-                <p><b>专业：</b>物联网应用技术</p>
-            </div>
-        </div>
-    </div>
+
+<div class="grid cards" markdown>
+
+- ![CQU-EIE](images/about/education/CQU-EIE.svg)
+
+    ---
+
+    **2024年9月 ~ 2025年7月**
+    
+    **相关：** [毕设](https://github.com/LeeYearn/RF-Fingerprint-Extraction-for-Bluetooth){target="_blank"} [重大](https://cqu.edu.cn/){target="_blank"} [卓工](https://eie.cqu.edu.cn/){target="_blank"} [毕设系统](http://180.85.204.43:50031/){target="_blank"} [教务](https://my.cqu.edu.cn/workspace/home){target="_blank"} [服务](https://i.cqu.edu.cn/new/index.html){target="_blank"} [邮箱](https://mail.cqu.edu.cn/coremail/){target="_blank"}
+
+    
+    
+    **公费交流生** | **智能网联汽车**
+
+
+- ![CQUE](images/about/education/CQUE-light.png#only-light)
+![CQUE](images/about/education/CQUE-dark.png#only-dark)
+
+    ---
+
+    **2023年9月 ~ 2025年7月**
+
+    **相关：** [学校官网](https://www.cque.edu.cn/){target="_blank"}
+    
+    **全日制本科** | **数据科学与大数据技术**
+
+- ![CQNY](images/about/education/CQNY-light.png#only-light)
+![CQNY](images/about/education/CQNY-dark.png#only-dark)
+
+    ---
+
+    **2020年9月 ~ 2023年7月**
+    
+    **相关：** [学校官网](https://www.cqny.edu.cn/){target="_blank"}
+    
+    **全日制专科** | **物联网应用技术**
+
 </div>
 
 ## :icons8-friend-link: 友情链接
@@ -140,27 +141,4 @@ glightbox: false
 
 感谢以上提到的项目。诚挚感谢~
 
-<script>
-    // 动态检测屏幕宽度
-function adjustLayout() {
-    const screenWidth = window.innerWidth;
-    const images = document.querySelectorAll('.education-image');
-    const container = document.querySelector('.education-container'); // 使用 class 选择器
-
-    if (screenWidth < 768) {
-        // 小屏幕：隐藏图片，调整 margin
-        images.forEach(img => img.style.display = 'none');
-        container.style.margin = '0 0 0 0';
-    } else {
-        // 大屏幕：显示图片，恢复 margin
-        images.forEach(img => img.style.display = 'block');
-        container.style.margin = '0 0 0 50px';
-    }
-}
-
-// 初始加载时调用
-adjustLayout();
-
-// 窗口大小变化时调用
-window.addEventListener('resize', adjustLayout);
-</script>
+<script type="text/javascript" src="./javascripts/about.js"></script>
