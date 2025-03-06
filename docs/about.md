@@ -86,8 +86,9 @@ glightbox: false
 
 <div class="grid cards" markdown>
 
-- ![CQU-EIE](images/about/education/CQU-EIE.svg)
-
+- ![CQU-EIE](images/about/education/CQU-EIE.svg#only-light)
+![CQU-EIE](images/about/education/CQU-EIE-dark.png#only-dark)
+    
     ---
 
     **2024年9月 ~ 2025年7月**
