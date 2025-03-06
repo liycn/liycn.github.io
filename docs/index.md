@@ -47,8 +47,8 @@ glightbox: false  # 禁止图片放大  或者在标签中使用 class="on-glb" 
 
 <!--    快捷栏    -->
 
-[:material-folder: __正大光明__ ](\public){ .md-button target="_blank" style="margin-top:40px" }
-[:material-folder-lock: __深藏不露__ ](\private){ .md-button target="_blank" }
+[:material-folder: __正大光明__ ](./public/){ .md-button target="_blank" style="margin-top:40px" }
+[:material-folder-lock: __深藏不露__ ](./private/){ .md-button target="_blank" }
 [:simple-openwrt: __OpenWrt__ ](http://10.0.0.1){ .md-button target="_blank" }
 [:material-speedometer: __内网测速__ ](http://10.0.0.1:3300){ .md-button target="_blank" }
 [:material-router-network-wireless: __内网穿透__ ](http://10.0.0.1:16601){ .md-button target="_blank" }
