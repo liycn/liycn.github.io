@@ -51,7 +51,7 @@ glightbox: false
 
 - :icons8-debian: [__Debian__](http://cdimage.debian.org/cdimage/archive/){target="_blank"}
 
-- :icons8-vmware: [__VMware__](http://cdimage.debian.org/cdimage/archive/){target="_blank"}
+- :icons8-vmware: [__VMware__](https://softwareupdate.vmware.com/cds/vmw-desktop/ws/){target="_blank"}
 
 
 </div>
