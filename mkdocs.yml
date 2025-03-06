@@ -16,17 +16,25 @@ theme:
     repo: fontawesome/brands/github           # 仓库图标
   
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 自动亮/暗
+    
     - media: "(prefers-color-scheme: light)"  # 日间模式
       scheme: default #default / slate
       primary: indigo                         # 导航栏背景色
+      toggle:
+        icon: material/toggle-switch
+        name: 日间模式
 
-    # # Palette toggle for dark mode
-    # - media: "(prefers-color-scheme: dark)"   # 夜间模式
-    #   scheme: slate
-    #   primary: black                          # 导航栏背景色
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: 夜间模式
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"   # 夜间模式
+      scheme: slate
+      primary: black                          # 导航栏背景色
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 夜间模式
 
   features:
     - navigation.top              # 返回顶部的按钮
@@ -112,6 +120,6 @@ nav:
   - gh-proxy: recom/gh-proxy.md
 - Blog:
   - blog/index.md
-  - OS 小知识:
-    - Ubuntu 妙妙小命令: blog/posts/OS/妙妙小命令.md
+  - Important:
+    - 妙妙小命令: blog/posts/OS/妙妙小命令.md
 - About: about.md
