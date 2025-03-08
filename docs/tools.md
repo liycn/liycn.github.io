@@ -14,7 +14,10 @@ glightbox: false
   }
 </style>
 
-<h2 align="center" style="margin: 0 0 50px 0;">Always believe that something wonderful is about to happen.<br>- 永远相信美好的事情即将发生 -</h2>
+<h2 align="center" style="margin: 0 0 50px 0;">
+  <b>Always believe that something wonderful is about to happen.</b>
+  <br>- 永远相信美好的事情即将发生 -
+</h2>
 
 ---
 
@@ -23,13 +26,13 @@ glightbox: false
 <div class="grid cards" markdown>
 
 - :icons8-deepseek: [__DeepSeek - 探索未至之境__](https://chat.deepseek.com/a/chat){target="_blank"}
-- :icons8-grok: [__Grok - 构建推动人类进步的人工智能__](https://grok.com/){target="_blank"}
+- :icons8-grok-blank:{.only-light} [__Grok - 构建推动人类进步的人工智能__](https://grok.com/){target="_blank"}
 - :icons8-chatgpt: [__Chat GPT - 获得答案、寻找灵感__](https://chat.openai.com/chat){target="_blank"}
 - :other-gemini: [__Gemini - 轻松对话，获取创意灵感__](https://gemini.google.com/app){target="_blank"}
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">- 花开花落终有时，相逢相聚本无意 -</h2>
+<h2 align="center" style="font-weight: bolder;">- 浮云一别后，流水十年间 -</h2>
 
 <div class="grid cards" markdown>
 
@@ -41,9 +44,11 @@ glightbox: false
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">- 为近都门多送别，长条折尽减春风 -</h2>
+<h2 align="center" style="font-weight: bolder;">- 海内存知己，天涯若比邻 -</h2>
 
 <div class="grid cards" markdown>
+
+- :icons8-windows: [__Windows__](https://www.xitongku.com){target="_blank"}
 
 - :icons8-ubuntu: [__Ubuntu__](https://mirrors.ustc.edu.cn/ubuntu-releases/){target="_blank"}
 
@@ -56,7 +61,7 @@ glightbox: false
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">- 日暮酒醒人已远，漫天风雨下西楼 -</h2>
+<h2 align="center" style="font-weight: bolder;">- 春去花还在，人来鸟不惊 -</h2>
 
 <div class="grid cards" markdown>
 
@@ -137,7 +142,7 @@ glightbox: false
 
 </div>
 
-<h2 align="center" style="font-weight: bolder;">- 城南小陌又逢春，只见梅花不见人 -</h2>
+<h2 align="center" style="font-weight: bolder;">- 生民百遗一，念之断人肠 -</h2>
 
 <div class="grid cards" markdown>
 

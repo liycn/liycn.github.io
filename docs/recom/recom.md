@@ -14,7 +14,12 @@ glightbox: false
   }
 </style>
 
-<h2 align="center" style="margin: 0 0 50px 0;">Innovation that everyone can enjoy<br>让每个人都能享受科技的乐趣</h2>
+<h2 align="center" style="margin: 0 0 50px 0;">
+  <b>Technology is no longer inaccessible, it serves the people.</b>
+  <br>- 科技不再是高高在上，而是服务于人民 -
+</h2>
+
+---
 
 <div class="grid cards" markdown>
 
