@@ -3,8 +3,8 @@ dev_addr: 0.0.0.0:8000
 docs_dir: docs
 copyright: Copyright © 2025 All Rights Reserved         # 版权声明
 
-repo_url: https://github.com/liycn/liycn.github.io                      # git仓库地址
-repo_name: liycn.github.io                                        # 仓库名称
+repo_url: https://github.com/liycn/liycn.github.io      # git仓库地址
+repo_name: liycn.github.io                              # 仓库名称
 
 theme:
   name: material
@@ -16,13 +16,13 @@ theme:
     repo: fontawesome/brands/github           # 仓库图标
   
   palette:
-    - media: "(prefers-color-scheme)"
+    - media: "(prefers-color-scheme)"         # 自动模式
       toggle:
         icon: material/link
         name: 自动亮/暗
     
     - media: "(prefers-color-scheme: light)"  # 日间模式
-      scheme: default #default / slate
+      scheme: default                         # default / slate
       primary: indigo                         # 导航栏背景色
       toggle:
         icon: material/toggle-switch
@@ -37,79 +37,113 @@ theme:
         name: 夜间模式
 
   features:
-    - navigation.top              # 返回顶部的按钮
-    - navigation.tabs             # 导航栏
-    - search.highlight            # 高亮显示搜索内容
-    - search.suggest              # 搜索建议
-    - search.share                # 搜索共享
-    - navigation.tracking         # 锚跟踪
-    - navigation.instant          # 即时加载
-    - navigation.instant.prefetch # 即时预取
-    - navigation.instant.progress # 进度指标
-    - content.code.select         # 代码选择按钮
-    - content.code.copy           # 代码复制按钮
-    - content.code.annotate       # 代码注释
-    - content.tabs.link           # 链接内容选项卡
-    - navigation.tabs             # 导航栏始终显示
-    - navigation.tabs.sticky      # 导航栏始终显示
-    - navigation.sections         # 不折叠导航栏
-    - navigation.indexes          # 排除 大标题 在页面导航栏重复问题
+    - navigation.top                          # 返回顶部的按钮
+    - navigation.tabs                         # 导航栏
+    - search.highlight                        # 高亮显示搜索内容
+    - search.suggest                          # 搜索建议
+    - search.share                            # 搜索共享
+    - navigation.tracking                     # 锚跟踪
+    - navigation.instant                      # 即时加载
+    - navigation.instant.prefetch             # 即时预取
+    - navigation.instant.progress             # 进度指标
+    - content.code.select                     # 代码选择按钮
+    - content.code.copy                       # 代码复制按钮
+    - content.code.annotate                   # 代码注释
+    - content.tabs.link                       # 链接内容选项卡
+    - navigation.tabs                         # 导航栏始终显示
+    - navigation.tabs.sticky                  # 导航栏始终显示
+    - navigation.sections                     # 不折叠导航栏
+    - navigation.indexes                      # 排除 大标题 在页面导航栏重复问题
+    - content.tooltips                        # 替换浏览器的title属性渲染逻辑
+    - content.footnote.tooltips               # 注脚工具提示
 
 extra:
-  generator: false                        # 关闭 MKDOCS 来源页脚
+  generator: false                            # 关闭 MKDOCS 来源页脚
 
+#-----------------------------
+# 引入插件
+#-----------------------------
 plugins:
-  - glightbox:                            # 图片放大功能
-      draggable: true                     # 图片可拖动
-      touchNavigation: true               # 触摸触摸导航(滑动)
-      loop: true                          # 图片循环
-  - search
+  # - social:                                   # 社交卡
+  #     cards_layout_options:
+  #       background_image: layouts/background.png  # 背景图像
+  #       background_color: "#ff1493"           # 背景颜色
+  #       logo: docs/assets/images/ourlogo.png  # 站点的徽标
+  - search                                    # 搜索功能
   - blog:
-      archive_date_format: yyyy             # 归档时间格式
-      blog_toc: true                        # 在 Blog 主页中显示文章目录
-      post_date_format: short               # 日期格式 yyyy mm dd week
-      post_excerpt: optional                # 摘录，optional选择写，required必写
-      post_excerpt_separator: <!-- more --> # 生成摘录，more 以上为摘录
-  - tags                                    # 标签
+      archive_date_format: yyyy               # 归档时间格式
+      blog_toc: true                          # 在 Blog 主页中显示文章目录
+      post_date_format: short                 # 日期格式 yyyy mm dd week
+      post_excerpt: optional                  # 摘录，optional选择写，required必写
+      post_excerpt_separator: <!-- more -->   # 生成摘录，more 以上为摘录
+  - glightbox:                                # 图片放大功能
+      draggable: true                         # 图片可拖动
+      touchNavigation: true                   # 触摸触摸导航(滑动)
+      loop: true                              # 图片循环  
+  - tags                                      # 标签
   - privacy
 
-
+#-----------------------------
+# 引入 css 文件
+#-----------------------------
 extra_css:
   - stylesheets/extra.css
   - stylesheets/index.css
 
+#-----------------------------
+# 引入 js 文件
+#-----------------------------
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/index.js
-  - javascripts/AestheticFluidBg.min.js
-  
+
+
+#-----------------------------
+# Python Markdown 扩展
+#-----------------------------
 markdown_extensions:
-  - abbr
-  - toc:
-      permalink: true
-  - pymdownx.superfences:
+  # Python Markdown 内置扩展
+  - abbr                                      # 缩写，比如HTML写成[*HTML]: HyperText Markup Language
+  - admonition                                # 提示框，比如!!! note "标题"
+  - attr_list                                 # 允许在元素后添加{: .class #id}这样的属性
+  - def_list                                  # 定义列表，允许使用术语和定义的写法，类似<dl>的效果。
+  - footnotes                                 # 脚注，用[^1]标记脚注，然后在文末写[^1]: 内容
+  - md_in_html                                # md_in_html：在HTML块中允许使用markdown语法
+  - toc:                                      # 自动生成目录
+      permalink: true                         # 在标题旁显示永久链接符号
+
+  # PyMdown 扩展（需安装 pymdown-extensions）
+  - pymdownx.arithmatex:                      # LaTeX 数学公式支持
+      generic: true                           # 使用通用数学解析器
+  - pymdownx.betterem:                        # 更智能的强调语法
+      smart_enable: all                       # 同时启用 _ 和 * 的智能强调
+  - pymdownx.caret                            # 支持上标和插入符（例：^上标^）
+  - pymdownx.details                          # 折叠内容区块（类似 <details>）
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji      # 使用 Twemoji 图标集
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg   # 生成 SVG 格式
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight:                       # 增强代码高亮（替代默认高亮）
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.keys                             # 键盘按键样式（例：++ctrl+c++）
+  - pymdownx.mark                             # 文本标记支持（==高亮文本==）
+  - pymdownx.smartsymbols                     # 智能符号转换（例：(c) → ©）
+  - pymdownx.superfences:                     # 嵌套代码块支持（解决列表中的代码块问题）
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - attr_list                                     # 允许使用{}自定义样式
-  - md_in_html
+  - pymdownx.tabbed:                          # 选项卡式内容区块
+      alternate_style: true                   # 使用替代样式主题
+  - pymdownx.tasklist:                        # 任务列表支持
+      custom_checkbox: true                   # 自定义复选框样式
+  - pymdownx.tilde                            # 删除线扩展（支持 ~~删除线~~）
   - pymdownx.blocks.caption
-  - admonition
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      linenums: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
-      
+
 nav:
 - Home: index.md
 - Tools: tools.md
