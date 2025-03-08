@@ -29,7 +29,7 @@ readtime: 15
 ## 成因解释
 首先虽然我的系统镜像是从官网下载的 `ubuntu-20.04.6-desktop-amd64` ，但是在刷到 U 盘中时，软件提到一句***引导加载器被吊销了***，起初我没太在意。
 
-![PixPin_20250120_172950.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737365404324818.png)
+![1.png](/images/blog/Knowledge/U盘安全启动问题/1.png)
 
 然后就发生了这个问题，因为安全启动（security boot）是为了***防止未经授权的操作系统或恶意软件加载的功能***，要求操作系统的引导加载程序（比如 GRUB 或 shim）必须经过数字签名验证，以确保它们没有被篡改。
 错误信息 `Verifying shim SBAT data failed: Security Policy Violation` 就是表示系统无法验证启动加载程序（如 shim）的签名，所以导致 U 盘刷机的时候一直启动失败。

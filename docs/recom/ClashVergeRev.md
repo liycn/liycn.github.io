@@ -21,21 +21,21 @@ readtime: 20
 
     - 第一步 导入 URL 订阅地址
 
-        ![1.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366234392754.png)
+        ![1.png](/images/recom/ClashVergeRev/1.png)
 
     - 第二步 启用订阅并更新节点列表
 
-        ![2.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173036625699759.png)
+        ![2.png](/images/recom/ClashVergeRev/2.png)
 
     - 第三步 选择代理节点
 
-        ![3.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366275175493.png)
+        ![3.png](/images/recom/ClashVergeRev/3.png)
 
-        ![4.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366283732208.png)
+        ![4.png](/images/recom/ClashVergeRev/4.png)
 
     ---
 
-=== "For Linux"
+<!-- === "For Linux"
 
     ## For Linux
 
@@ -50,17 +50,17 @@ readtime: 20
     ### 2. 使用 Clash Verge
 
     - 第一步 导入 URL 订阅地址
-        ![1.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366234392754.png)
+        ![1.png]()
 
     - 第二步 启用订阅并更新节点列表
-        ![2.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173036625699759.png)
+        ![2.png]()
 
     - 第三步 选择代理节点
-        ![3.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366275175493.png)
+        ![3.png]()
 
-        ![4.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11730366283732208.png)
+        ![4.png]()
 
-    ---
+    --- -->
 
 === "For Android"
 
@@ -77,32 +77,32 @@ readtime: 20
     ### 2. 使用 Clash Verge
 
     - 第一步 添加配置文件
-        ![AndroidClashMeta2.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729833912200413.png)
+        ![AndroidClashMeta2.png](/images/recom/ClashVergeRev/9.png)
 
-        ![AndroidClashMeta3.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729833971911417.png)
+        ![AndroidClashMeta3.png](/images/recom/ClashVergeRev/10.png)
 
     - 第二步 导入 URL 订阅地址
         
-        ![AndroidClashMeta4.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834053240290.png)
+        ![AndroidClashMeta4.png](/images/recom/ClashVergeRev/11.png)
         
-        ![AndroidClashMeta5.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834100362245.png)
+        ![AndroidClashMeta5.png](/images/recom/ClashVergeRev/12.png)
         
-        ![AndroidClashMeta6.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834151691576.png)
+        ![AndroidClashMeta6.png](/images/recom/ClashVergeRev/13.png)
 
     - 第三步 选择性加入其他配置并保存
         
-        ![AndroidClashMeta7.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834184260909.png)
+        ![AndroidClashMeta7.png](/images/recom/ClashVergeRev/14.png)
 
     - 第四步 启用订阅并更新节点列表
 
-        ![AndroidClashMeta8.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1172983421639478.png)
+        ![AndroidClashMeta8.png](/images/recom/ClashVergeRev/15.png)
 
-        ![AndroidClashMeta9.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834252442454.png)
+        ![AndroidClashMeta9.png](/images/recom/ClashVergeRev/16.png)
 
     - 第五步 选择代理节点
 
-        ![AndroidClashMeta10.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834289819557.png)
+        ![AndroidClashMeta10.png](/images/recom/ClashVergeRev/17.png)
 
-        ![AndroidClashMeta11.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834783050619.png)
+        ![AndroidClashMeta11.png](/images/recom/ClashVergeRev/18.png)
 
-        ![AndroidClashMeta1.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11729834821903756.png)
+        ![AndroidClashMeta1.png](/images/recom/ClashVergeRev/19.png)

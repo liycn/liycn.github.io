@@ -14,7 +14,7 @@ DNS（Domain Name System，域名系统）是一种将域名转换为 IP 地址�
 <!-- more -->
 <!-- 摘录结束 -->
 
-![PixPin_20250120_172950.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737482878376290.png)
+![1.png](/images/blog/Net/DNS/1.png)
 
 于是就独立出一个服务器，让这台服务器专门去存储这个世界绝大多数的域名和 IP 地址的映射表，这个服务器就是我们所说的 DNS 服务器。
 

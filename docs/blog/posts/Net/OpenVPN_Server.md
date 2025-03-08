@@ -28,7 +28,7 @@ readtime: 180
 
 ## 一、路由结构
 **光猫接 R4S 的 WAN 口，R4S 的 LAN 口出去接路由器/交换机的 LAN 口**
-![PixPin_20250120_020856.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737313596751326.png)
+![PixPin_20250120_020856.png](/images/blog/Net/OpenVPN_Server/1.png)
 
 ??? question "光猫改桥接模式"
 
@@ -38,33 +38,33 @@ readtime: 180
 ## 二、将固件刷到软路由中
 R4S 是用 TF（microSD） 卡的，所以只需要将固件刷进 TF 卡就行了，设备那里是U盘，引导类型那里是 `镜像文件(请选择)`，就选择下好的 Wrt 固件，然后点击开始，等待 `准备就绪` 那一条变成绿色就可以将 TF 直接插到 R4S 的 TF 卡槽中了。
 
-![PixPin_20250120_025709.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737313053063247.png)
+![PixPin_20250120_025709.png](/images/blog/Net/OpenVPN_Server/2.png)
 
 ## 三、进如 BleachWrt 系统
 给 R4S 接上电后，等待 system 的绿灯亮起来后就可以进入了
 打开浏览器，在地址栏输入 `192.168.1.1`，打开这个页面，默认用户名：`root`，密码：`password`
-![PixPin_20250120_030931.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737313780658441.png)
+![PixPin_20250120_030931.png](/images/blog/Net/OpenVPN_Server/3.png)
 这就是进入系统的界面，**如果你发现你没有网络存储、VPN 这些内容的话，你下的就是mini的精简版，请重新找一下 plus 的高大全版**
-![PixPin_20250120_031132.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173731389988754.png)
+![PixPin_20250120_031132.png](/images/blog/Net/OpenVPN_Server/4.png)
 
 ## 四、插件检查
 首先看一下在 VPN 下面有没有 OpenVPN，没有的话是不可能的。
-![PixPin_20250120_032731.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737314863583737.png)
+![PixPin_20250120_032731.png](/images/blog/Net/OpenVPN_Server/5.png)
 其次在`iStore`中搜索并下载`Lucky`插件，下载的时候会有终端弹窗，当弹窗边缘是绿色的时候就可以关闭终端弹窗了
-![PixPin_20250120_031432.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737314083802151.png)
+![PixPin_20250120_031432.png](/images/blog/Net/OpenVPN_Server/6.png)
 
 ## 五、设置软路由 PPPoE 拨号
 首先在 `网络-接口` 中将全局网络选项中的 IPv6 前缀删掉
-![PixPin_20250120_032301.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737314715371473.png)
+![PixPin_20250120_032301.png](/images/blog/Net/OpenVPN_Server/7.png)
 
 然后找到顶部的 WAN 口，如果是 IPv6 的话就设置 WAN6 ，将传输协议设置为 PPPoE，用户名和密码就是宽带账号和密码，如果不知道就在改光猫桥接的时候问一下，设置完成后点击**保存&应用**
-![PixPin_20250120_031957.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737314665324384.png)
+![PixPin_20250120_031957.png](/images/blog/Net/OpenVPN_Server/8.png)
 
 ## 六、打开 Lucky 插件
 在`服务 - Lucky`中找到插件基本设置，然后启动服务，进入 Lucky 后台管理页面，**初始用户名和密码都是`666`**
-![PixPin_20250120_031634.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737314236095748.png)
+![PixPin_20250120_031634.png](/images/blog/Net/OpenVPN_Server/9.png)
 进入之后设置一下两个东西，第一个是安全入口，第二个是用户名和密码，否则不能设置 DDNS 动态域名
-![PixPin_20250120_033021.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737315047343493.png)
+![PixPin_20250120_033021.png](/images/blog/Net/OpenVPN_Server/10.png)
 
 ## 七、设置 DDNS 动态域名
 
@@ -85,12 +85,12 @@ R4S 是用 TF（microSD） 卡的，所以只需要将固件刷进 TF 卡就行�
 
 **然后就添加任务**(我这里已经添加过了，就是修改任务了)
 
-![PixPin_20250120_034447.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173731590835571.png)
+![PixPin_20250120_034447.png](/images/blog/Net/OpenVPN_Server/11.png)
 
 ### 2 看同步情况
 
 如果同步情况是`公网 IP 未改变` `托管商记录一致` 都表示通过了
-![PixPin_20250120_035032.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737316300403436.png)
+![PixPin_20250120_035032.png](/images/blog/Net/OpenVPN_Server/12.png)
 
 ## 八、设置OpenVPN
 在 Wrt 中`VPN - OpenVPN`
@@ -108,25 +108,25 @@ R4S 是用 TF（microSD） 卡的，所以只需要将固件刷进 TF 卡就行�
 |客户端推送配置4|建议把 DNS 后面的 IP 改成域名商的 DNS IP，比如阿里的就是 223.5.5.5|
 
 **完了之后保存并应用**
-![PixPin_20250120_035616.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737316675227870.png)
+![PixPin_20250120_035616.png](/images/blog/Net/OpenVPN_Server/13.png)
 
 ## 九、添加 OpenVPN-Server 的参数
 为了保障同一时间可以有多台设备连接到服务器，就要在 Server 端添加参数让所有的客户端用同一个证书进行验证，参数 `option duplicate_cn "1"`
 可以使用 ssh 远程连接或者在Wrt中使用 YYTD 终端，用户名为`root`，密码为`password`，我这里使用 Termius 软件 ssh 远程连接，效果是一样的
-![PixPin_20250120_040854.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737317351287301.png)
+![PixPin_20250120_040854.png](/images/blog/Net/OpenVPN_Server/14.png)
 首先使用 `vi /etc/config/openvpn` 
-![PixPin_20250120_041451.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173731769979811.png)
+![PixPin_20250120_041451.png](/images/blog/Net/OpenVPN_Server/15.png)
 进入 OpenVPN 服务端的参数配置文件，先按 `i` 进入编辑模式，然后在最后面粘贴参数 `option duplicate_cn "1"` ，然后按键盘左上角的 `ESC` 退出编辑模式，再按 `:wq` 进入命令模式实现保存并退出。
-![PixPin_20250120_041523.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn1173731773330947.png)
+![PixPin_20250120_041523.png](/images/blog/Net/OpenVPN_Server/16.png)
 退出后使用 `/etc/init.d/openvpn restart` 命令重启 OpenVPN 服务即可
 
 ## 十、手机测试
 在手机上下载 `OpenVPN Connect` 软件，我以安卓为例，一般的应用商店是没有的，但是尽量科学上网去谷歌商店下载，别去网上下些奇奇怪怪的版本，然后在 `VPN - OpenVPN` 中下载客户端的 OpenVPN 文件
-![PixPin_20250120_042021.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737318028733708.png)
+![PixPin_20250120_042021.png](/images/blog/Net/OpenVPN_Server/17.png)
 然后传输到 QQ 或微信中下载下来，并使用 `OpenVPN Connect` 打开
-![PixPin_20250120_043229.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737318780140634.png)
+![PixPin_20250120_043229.png](/images/blog/Net/OpenVPN_Server/18.png)
 然后关闭手机 WiFi，使用流量在浏览器打开 192.168.1.1 就能打开 Wrt 的网页了
-![PixPin_20250120_043739.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737319074108829.png)
+![PixPin_20250120_043739.png](/images/blog/Net/OpenVPN_Server/19.png)
 
 ## 十一、防火墙地址伪装
 但是现在只能访问 OpenWrt，无法访问内网的其他设备，可以做做简单的验证就是用 `Microsoft 远程登陆 (RD 客户端)`软件测试，一定是连不上内网的 PC 电脑的，这时候就需要做防火墙的 NAT 进行设置
@@ -135,10 +135,10 @@ R4S 是用 TF（microSD） 卡的，所以只需要将固件刷进 TF 卡就行�
 操作
 
 在 `网络 - 防火墙 - 自定义规则` 的末尾添加参数 `iptables -t nat -A POSTROUTING -o br-lan -j MASQUERADE`，然后重启防火墙即可。
-![PixPin_20250120_044555.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737319572392663.png)
+![PixPin_20250120_044555.png](/images/blog/Net/OpenVPN_Server/20.png)
 
 ## 十二、远程访问内网设备测试
 这里通过手机使用流量在 `RD 客户端` 软件远程连接内网 PC 进行测试。首先打开电脑的远程连接功能
-![PixPin_20250120_050204.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737320534789525.png)
+![PixPin_20250120_050204.png](/images/blog/Net/OpenVPN_Server/21.png)
 然后在 `RD 客户端` 中点击 + 号添加设备，输入电脑的 IP，然后输入电脑用户名和密码，最近进行连接，就能够实现实现远程访问了
-![PixPin_20250120_045849.png](https://www.leeyearn.cn/static/articlePicture/LeeYearn11737320350336516.png)
+![PixPin_20250120_045849.png](/images/blog/Net/OpenVPN_Server/22.png)
