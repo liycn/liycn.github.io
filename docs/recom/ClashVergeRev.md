@@ -5,9 +5,9 @@ date:
 readtime: 20
 ---
 
-=== "For Windows"
+=== "For Windows & Linux"
 
-    ## For Windows
+    ## For Windows & Linux
 
     ### 1. 下载客户端
 
@@ -32,35 +32,6 @@ readtime: 20
         ![3.png](/images/recom/ClashVergeRev/3.png)
 
         ![4.png](/images/recom/ClashVergeRev/4.png)
-
-    ---
-
-<!-- === "For Linux"
-
-    ## For Linux
-
-    ### 1. 下载客户端
-
-    - GitHub 仓库地址：[这里](https://github.com/clash-verge-rev/clash-verge-rev/releases){target="_blank"}
-
-    - for Linux 链接：[需要加速，点击下载 v1.7.7](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/clash-verge_1.7.7_amd64.deb){target="_blank"}，其他版本可以在仓库寻找
-
-    - 若下载失败或下载缓慢可直接在这里下载：[无须加速，直接下载 v1.7.7](https://gh.api.99988866.xyz/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/clash-verge_1.7.7_amd64.deb){target="_blank"}
-
-    ### 2. 使用 Clash Verge
-
-    - 第一步 导入 URL 订阅地址
-        ![1.png]()
-
-    - 第二步 启用订阅并更新节点列表
-        ![2.png]()
-
-    - 第三步 选择代理节点
-        ![3.png]()
-
-        ![4.png]()
-
-    --- -->
 
 === "For Android"
 
