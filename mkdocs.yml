@@ -3,8 +3,8 @@ dev_addr: 0.0.0.0:8000
 docs_dir: docs
 copyright: Copyright © 2025 All Rights Reserved         # 版权声明
 
-repo_url: https://github.com/LeeYearn                   # git仓库地址
-repo_name: LeeYearn                                     # 仓库名称
+repo_url: https://github.com/liycn/liycn.github.io                      # git仓库地址
+repo_name: liycn.github.io                                        # 仓库名称
 
 theme:
   name: material
@@ -41,6 +41,7 @@ theme:
     - navigation.tabs             # 导航栏
     - search.highlight            # 高亮显示搜索内容
     - search.suggest              # 搜索建议
+    - search.share                # 搜索共享
     - navigation.tracking         # 锚跟踪
     - navigation.instant          # 即时加载
     - navigation.instant.prefetch # 即时预取
@@ -55,11 +56,7 @@ theme:
     - navigation.indexes          # 排除 大标题 在页面导航栏重复问题
 
 extra:
-  generator: false                      # 关闭 MKDOCS 来源页脚
-  # social:
-  #   - icon: https://dxlcq.github.io/assets/head.png   # 页脚图标
-  #     link: https://dxlcq.cn # 对应链接
-  #     name: 戴兴龙                      # 提示词
+  generator: false                        # 关闭 MKDOCS 来源页脚
 
 plugins:
   - glightbox:                            # 图片放大功能
@@ -72,7 +69,7 @@ plugins:
       blog_toc: true                        # 在 Blog 主页中显示文章目录
       post_date_format: short               # 日期格式 yyyy mm dd week
       post_excerpt: optional                # 摘录，optional选择写，required必写
-      post_excerpt_separator: <!-- more --> # 生成摘录，more以上为摘录
+      post_excerpt_separator: <!-- more --> # 生成摘录，more 以上为摘录
   - tags                                    # 标签
   - privacy
 
@@ -85,6 +82,7 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/index.js
+  - javascripts/AestheticFluidBg.min.js
   
 markdown_extensions:
   - abbr
@@ -97,7 +95,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-  - attr_list
+  - attr_list                                     # 允许使用{}自定义样式
   - md_in_html
   - pymdownx.blocks.caption
   - admonition
