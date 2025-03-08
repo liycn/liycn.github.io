@@ -24,5 +24,6 @@ jobs:
       - run: pip install \
                 mkdocs-material \
                 mkdocs-glightbox \
+                pymdown-extensions \
                 "mkdocs-material[imaging]"
       - run: mkdocs gh-deploy --force
