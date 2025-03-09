@@ -122,13 +122,14 @@ glightbox: false
      | [可以直连](https://xn--cp3a08l.com/#/register?code=7KiFX6Bk){target="_blank"}
      | [我的专属链接](https://xn--mes358aby2apfg.com){target="_blank"}
 
--   :icons8-webutility: __WebUtility - Image To SVG__
+-   :icons8-webutility: __WebUtility__
 
     ---
 
     免费。既可以让图片转成 svg ，还能转成 svg 代码，爽歪歪。网站主页还有其他功能等待探索。
 
-    [:octicons-arrow-right-24: 去看看](https://webutility.io/image-to-svg-converter){target="_blank"}
+    [:octicons-arrow-right-24: 去看看](https://webutility.io/){target="_blank"}
+    | [png2svg](https://webutility.io/image-to-svg-converter){target="_blank"}
 
 -   :icons8-highlightcode: __Highlight Code__
 

@@ -17,24 +17,24 @@ glightbox: false
 <link rel="stylesheet" href="/stylesheets/index.css">
 
 <h2 align="center" style="font-weight: bolder; margin-top: 0;line-height:1;">
-    软硬件整合开发者 | 物联网探索者 | 极客型技术实践者
+    "用 20% 的核心技术，解决 80% 的实际问题" 
 </h2>
 
-<p align="center">"用 20% 的核心技术，解决 80% 的实际问题"</p>
+<!-- <p align="center"></p> -->
 
 ## :icons8-link: 联系方式
 
-[ :simple-qq: __QQ__ ](https://qm.qq.com/q/L8Psq6fh){ .md-button .md-button--primary target="_blank"}
-[ :material-microsoft-outlook: __Outlook__ ](mailto:liycq@outlook.com){ .md-button .md-button--primary target="_blank"}
-[ :simple-gmail: __Gmail__ ](mailto:isleeyearn@gmail.com){ .md-button .md-button--primary target="_blank"}
+[ :simple-qq: __QQ__ ](https://qm.qq.com/q/L8Psq6fh){ .md-button .md-button--primary target="_blank" title="1317202104"}
+[ :material-microsoft-outlook: __Outlook__ ](mailto:liycq@outlook.com){ .md-button .md-button--primary target="_blank"  title="liycq@outlook.com"}
+[ :simple-gmail: __Gmail__ ](mailto:isleeyearn@gmail.com){ .md-button .md-button--primary target="_blank" title="isleeyearn@gmail.com"}
 [ :simple-telegram: __Telegram__ ](https://t.me/LeeYeaern){ .md-button .md-button--primary target="_blank"}
-[ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank"}
-[ :fontawesome-brands-steam-symbol: __Steam__ ](https://steamcommunity.com/profiles/76561199004333008/){ .md-button .md-button--primary target="_blank"}
+[ :simple-github: __GitHub__ ](https://github.com/LeeYearn){ .md-button .md-button--primary target="_blank" title="liycn"}
+[ :fontawesome-brands-steam-symbol: __Steam__ ](https://steamcommunity.com/profiles/76561199004333008/){ .md-button .md-button--primary target="_blank" title="好友码"}
 
 
 ## :icons8-skill: 技术拼图
 
-<h3 align="center">系统架构-服务器运维-网络安全</h3>
+<h3 align="center">系统架构 - 服务器运维 - 网络安全</h3>
 
 <div class="grid cards" markdown>
 
@@ -47,7 +47,7 @@ glightbox: false
 
 </div>
 
-<h3 align="center">多语言开发与界面设计体系</h3>
+<h3 align="center">多语言开发 - UI设计 - 顶级办公</h3>
 
 <div class="grid cards" markdown>
 
@@ -57,6 +57,7 @@ glightbox: false
 - :material-language-java: __Java__ 服务端开发
 - :material-vuejs: __VUE__ 前端开发
 - :simple-figma: __Figma__ UI设计 交互原型
+- :material-microsoft-office: __Office__ 全能
 
 </div>
 
@@ -131,7 +132,7 @@ glightbox: false
 
 ## :icons8-end: 写在最后
 
-网站由 [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/){target="_blank"} 项目作为基础搭建而成。期间图标不仅有项目本身的，还用了 [**icons8**](https://igoutu.cn/){target="_blank"} 的图标。由于囊中羞涩只能通过 [**WebUtility**](https://webutility.io/){target="_blank"} 项目将下载的资源转成 SVG 图标。
+网站由[ :simple-materialformkdocs: **Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/){target="_blank"} 项目作为基础搭建而成。期间图标不仅有项目本身的，还用了 [:simple-icons8: **icons8**](https://igoutu.cn/){target="_blank"} 的图标。由于囊中羞涩只能通过 [:material-web: **WebUtility**](https://webutility.io/){target="_blank"} 项目将下载的资源转成 SVG 图标。
 
 感谢以上提到的项目。诚挚感谢~
 
