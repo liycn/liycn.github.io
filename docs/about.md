@@ -34,16 +34,20 @@ glightbox: false
 
 ## :icons8-skill: 技术拼图
 
-<h3 align="center">硬件层</h3>
+<h3 align="center">系统架构-服务器运维-网络安全</h3>
 
 <div class="grid cards" markdown>
 
 - :simple-stmicroelectronics: __STM32__ 嵌入式开发
-- :simple-bluetooth: __Bluetooth__ 数据安全
+- :material-router-network-wireless: __无线通信__ 射频指纹
+- :simple-linux: __Linux__ 服务器搭建与管理
+- :simple-openwrt: __OpenWrt__ 智能路由配置
+- :simple-openvpn: __OpenVPN__ 安全隧道搭建
+- :simple-nginx: __Nginx__ 正反向代理
 
 </div>
 
-<h3 align="center">中间层</h3>
+<h3 align="center">多语言开发与界面设计体系</h3>
 
 <div class="grid cards" markdown>
 
@@ -53,17 +57,6 @@ glightbox: false
 - :material-language-java: __Java__ 服务端开发
 - :material-vuejs: __VUE__ 前端开发
 - :simple-figma: __Figma__ UI设计 交互原型
-
-</div>
-
-<h3 align="center">网络层</h3>
-
-<div class="grid cards" markdown>
-
-- :simple-linux: __Linux__ 服务器搭建与管理
-- :simple-openwrt: __OpenWrt__ 智能路由配置
-- :simple-openvpn: __OpenVPN__ 安全隧道搭建
-- :simple-nginx: __Nginx__ 正反向代理
 
 </div>
 
@@ -97,7 +90,7 @@ glightbox: false
 
     
     
-    **公费交流生** | **智能网联汽车**
+    **😂全日制交流** | **智能网联汽车**
 
 
 - ![CQUE](images/about/education/CQUE-light.png#only-light)
