@@ -1,0 +1,21 @@
+*{
+  --md-text-font: "MiSans";
+  font-variant-numeric: tabular-nums;
+}
+
+.md-grid {
+  max-width: 1440px; 
+}
+
+@font-face {
+  font-family: "MiSans";
+  src: url("../assets/external/font.sec.miui.com/font/css.9a81180f.css");
+}
+
+:root {
+  --md-text-font: "MiSans"; 
+}
+
+.md-button{
+  margin: 2px 0 2px 0;
+}
